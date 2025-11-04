@@ -1,0 +1,256 @@
+Privacy Policy
+This Privacy Policy pertains to the gathering, usage, and disclosure of personal data,
+including special or sensitive personal data, by VisionTech PVT LTD ("VisionTech",
+"we", or "our"). Personal Data encompasses information concerning an individual ("you" or
+"your") as elaborated below. VisionTech is dedicated to safeguarding your privacy and
+ensuring a secure experience on our website and while utilizing our products and services
+(referred to collectively as "Services"). This policy outlines VisionTech's, its subsidiaries',
+and affiliated companies' practices for handling information and how we collect and use
+the information you provide when accessing or using our systems through online
+interfaces (such as websites, mobile applications, etc.) (referred to collectively as
+"Company Systems"). In this Privacy Policy, "Personal Data" refers to any information that
+can identify an individual and may include, but is not limited to, name, email address,
+postal or other physical addresses, title, and other personally identifiable information. By
+using our services or products, you agree that you have read, understood, and consented
+to be bound by this policy as detailed below. We will act as the processor of the Personal
+Data provided, collected, and/or processed pursuant to this policy, except where
+otherwise explicitly stated.
+Applicability of the Policy
+This policy is applicable to all information we collect through the Company Systems and/or
+in the course of your usage of the services provided by VisionTech. This policy does not
+apply to, nor does VisionTech assume any responsibility for, any information collected by
+any third party either using Company Systems or through any links on the Company
+Systems or through any advertisements or bots.
+Information We Collect:
+● Voluntary Information Disclosure: At VisionTech, we prioritize your privacy and only
+collect information that you willingly share with us. You have full control over the type of
+information you disclose, and we will only gather data if you choose to share it through our
+Company Systems.
+● Types of Information Collected: We may collect various types of personal or personally
+identifiable information (PII) necessary for registration and continued use of our Company
+Systems or to provide services. This may include your name, title, contact details,
+educational and professional background, IP addresses, and other relevant information
+you choose to provide.
+
+● Purpose of Data Collection: The collection and processing of your Personal Data are
+integral to activities related to our Products, such as account registration, utilizing specific
+features, requesting support, participating in surveys or discussions, and subscribing to
+newsletters. We ensure that any information provided is used for legitimate purposes
+related to enhancing your experience with our Products.
+● Data Security Measures: Your privacy and data security are paramount to us. We strictly
+adhere to industry-standard security practices to safeguard your information against
+unauthorized access, disclosure, alteration, or destruction.
+● Third-Party Data Sources: Periodically, we may utilize information obtained from
+affiliated entities, business partners, or third-party sources to enhance our services. This
+may include information from social media platforms if you choose to access our systems
+through such sources.
+● Compliance with Regulations: We comply with applicable laws and regulations,
+including the General Data Protection Regulation (GDPR), to ensure that your data rights
+are respected. Regardless of your location, if you are an EU citizen, GDPR protections
+apply to your Personal Data.
+● Background Checks: In certain cases, particularly where required by law or for security
+purposes, we may conduct background checks, including credit history checks and
+criminal databases checks. Such checks are conducted within the bounds of applicable
+laws and regulations.
+● Data Deletion Policy: We reserve the right to delete any information that violates the
+terms of our privacy policy. This ensures that our systems remain compliant and uphold
+the privacy rights of our users.
+● User Consent and Agreement: By using our services or products, you acknowledge that
+you have read, understood, and agreed to the terms outlined in our privacy policy. Your
+continued use of our Company Systems signifies your consent to the collection and
+processing of your Personal Data as described herein.
+● Contact Information: Should you have any questions or concerns regarding our privacy
+practices or this policy, please contact us. We are committed to addressing any inquiries
+promptly and transparently to ensure your peace of mind regarding your privacy.
+Passive Data Collection:
+
+At VisionTech, we employ passive data collection methods, including cookies and other
+tracking technologies, to enhance your experience while using our products. Here's how
+we handle passive data collection:
+● Automatic Data Collection: VisionTech may automatically collect certain data when you
+interact with our products. This includes information such as cookies, page views,
+geolocation data, IP addresses, browser and operating system types, Internet Service
+Provider (ISP), files viewed and downloaded from our websites, referral and exit pages, and
+clickstream data.
+● Information Collection: We collect information related to visitors and their interactions
+with our products, including cookies, IP addresses, pageview activities, and geolocation
+data. This information helps us understand user behavior, improve our services, and tailor
+our offerings to meet user preferences.
+● Data Storage and Retention: The data collected through passive means is stored in logs
+or third-party tracking and analytics software like Google Analytics and LinkedIn Insights.
+This data does not have an expiry date, and we maintain it to analyze trends, track user
+movements, and gather insights about our user base.
+● Use of Cookies: VisionTech utilizes cookies to improve your browsing experience and
+provide personalized services. Cookies help us remember and process items in your
+shopping cart, understand your preferences based on site activity, and compile aggregate
+data about site traffic and interaction. Additionally, cookies enable us to analyze trends,
+track user movements, and gather location information based on IP addresses.
+● User Control: You have the option to manage cookie settings through your browser
+preferences. You can choose to receive notifications each time a cookie is sent or disable
+cookies altogether. However, please note that disabling cookies may affect certain
+features of our services and result in a less efficient user experience.
+At VisionTech, we prioritize transparency and user control over their data. If you have any
+concerns or questions regarding our passive data collection practices, please feel free to
+reach out to us. We are committed to ensuring that your privacy preferences are respected
+while providing you with a seamless and personalized experience on our platforms.
+Processing Your Personal Data:
+At VisionTech, we are committed to processing your Personal Data responsibly and in
+accordance with this policy. Our processing activities are designed to facilitate the
+
+services you have requested from us and to enhance your overall experience with our
+Products. Here's how we use your Personal Data:
+● Service Fulfillment: We process your Personal Data to fulfill our contractual obligations,
+including activities such as account registration, website usage, participating in online
+tests, and generating reports based on your interactions with our Products.
+● Support and Assistance: Your Personal Data enables us to provide timely support and
+assistance for our Products, ensuring that you receive the necessary help when required,
+whether it's troubleshooting issues or requesting additional features.
+● Communication and Updates: We keep you informed about the latest Product
+announcements, software updates, special offers, and other relevant information that may
+enhance your experience with our Products.
+● Customization and Personalization: Your Personal Data allows us to customize the
+content you see on our platforms, ensuring that it aligns with your interests and
+preferences. This includes tailoring marketing communication and website content to
+better suit your needs.
+● Recruitment Support: We may facilitate recruitment inquiries by allowing employers to
+view anonymized profiles and contact you for relevant job opportunities. Your Personal
+Data is shared with employers only with your explicit consent or when you respond to the
+conversation channel.
+● Legitimate Interests: In certain cases, we may process your Personal Data to pursue our
+legitimate interests, such as seeking professional advice or fulfilling legal obligations,
+including legal proceedings or defending legal rights.
+● Opt-Out Option: If you prefer not to participate in our recruitment support feature, you
+can opt-out by contacting us at support@visiontech.com. We respect your choices and
+ensure that your preferences regarding the use of your Personal Data are honored.
+● By processing your Personal Data for these purposes, we aim to provide you with a
+seamless and personalized experience while safeguarding your privacy and data
+protection rights. Should you have any questions or concerns regarding our data
+processing practices, please don't hesitate to reach out to us. We're here to ensure that
+your privacy preferences are respected and upheld at all times.
+How We Use Your Information:
+
+At VisionTech, we utilize your Personal Data strictly in accordance with this policy. Should
+you wish to discontinue the use of your Personal Data as outlined herein, you can request
+deactivation of your account through the account settings.
+We process your Personal Data only when we have a lawful basis to do so, which may
+include:
+1. Consent: We process your Personal Data based on your explicit consent provided to us.
+Your consent enables us to deliver the Products and services you have opted for, ensuring
+a personalized and tailored experience.
+2. Contractual Necessity: Processing your Personal Data is necessary for the performance
+of a contract between you and us. This includes fulfilling your user agreement, allowing us
+to provide you with the Products and services you've subscribed to.
+3. Legitimate Interests: We may process your Personal Data based on our legitimate
+interests or the legitimate interests of others, such as our users. This includes:
+● Providing you with websites and services, including any support you may require.
+● Responding to your inquiries and fulfilling your requests promptly.
+● Diagnosing technical problems with our website and services to ensure smooth
+operation.
+● Sending you relevant information that we believe may be of interest to you, such as
+announcements, newsletters, educational materials, and event updates.
+● Providing administrative information, such as notices related to our Services or policy
+changes.
+● Understanding usage patterns of our websites and services to enhance and optimize
+them for better user experience.
+● Preventing, detecting, mitigating, and investigating fraudulent or illegal activities to
+maintain the integrity of our platforms.
+● Protecting against fraudulent, harmful, unauthorized, or illegal activity, thereby
+safeguarding our users and our platforms.
+● Fulfilling legal obligations, resolving disputes with users, and enforcing agreements.
+
+4. Other Purposes: We may also use your information for purposes explicitly described to
+you at the point of collection. This ensures transparency and accountability in our data
+processing practices.
+At VisionTech, we prioritize the protection of your privacy and data rights while ensuring
+that our services meet your needs effectively. If you have any questions or concerns
+regarding the use of your information, please don't hesitate to reach out to us. Your trust
+and satisfaction are paramount to us, and we are committed to addressing any inquiries
+promptly and transparently.
+Retention of Data
+VisionTech retains your data as long as your account is active. You can delete your
+Personal Data at any time from your account profile page. Residual data is purged from
+certain logs within a year after deletion. Once deleted, your account with VisionTech is
+deactivated.
+Disclosure of Your Personal Data:
+VisionTech understands the sensitivity of your Personal Data and handles it with the
+utmost care. Here's how we manage disclosure:
+● Internal Use: Your information is shared internally with VisionTech's employees, agents,
+representatives, consultants, subsidiaries, affiliates, and third-party providers as needed
+for system operations, data processing, or storage.
+● Collaboration with Hiring Partners: With your explicit consent, we may share your data
+with our hiring partners to facilitate job offers. This includes providing resumes, contact
+information, and other pertinent details required for recruitment purposes.
+● Events of Business Changes: In the event of reorganization, merger, acquisition, or other
+business changes, VisionTech may transfer some or all of its assets, including your
+information. Rest assured; you will be informed about any such transfer of your data.
+● Compliance with Legal Obligations: We adhere to requests and directives from
+governmental, law enforcement, court, or regulatory authorities in accordance with
+applicable laws. This may involve disclosing information submitted by you or collected
+during your use of our services, including personally identifiable information.
+
+● No Third-Party Marketing: VisionTech does not engage in the publication, sale, or rental
+of your personal information to third parties for their marketing purposes without your
+explicit consent.
+Data Security:
+Ensuring the security of your information is our top priority:
+● Your data is stored securely on servers with robust firewalls, and we utilize SSL
+encryption for secure data transfer.
+● We conduct regular vulnerability scans and adhere to PCI standards annually to
+maintain data security.
+● You are responsible for safeguarding your authentication parameters, such as
+usernames and passwords, and should refrain from disclosing them to others.
+● While we take reasonable measures to secure your data, we cannot guarantee the
+absolute foolproof nature of our security protocols.
+Integration with External Websites and Third-Party Networks:
+Links to external or third-party websites provided for your convenience do not imply
+VisionTech's endorsement or acceptance of responsibility for their content or usage. It is
+essential to exercise caution and take necessary precautions, including protection against
+viruses and other potential threats, when accessing external websites.
+Third-Party Advertising Networks:
+We may utilize third-party advertising networks to display ads about our products on
+external websites based on your browsing activity. These networks may employ cookies
+and other technologies governed by their respective privacy policies. While we may provide
+them with anonymized usage data, we do not share your Personal Data with these
+networks.
+You have the option to opt-out of data sharing with third-party advertising networks. At
+VisionTech, safeguarding your privacy and maintaining the security of your data are
+paramount. If you have any queries or concerns regarding our disclosure practices or data
+security measures, please feel free to reach out. Your trust is invaluable to us, and we are
+dedicated to preserving it at all times.
+
+Age Restriction:
+To use VisionTech's services, you must explicitly confirm that you are 18 years of age or
+older, unless represented by a parent or legal guardian. If you are under 18, you are not
+permitted to provide any information directly to VisionTech or through the Company
+Systems. If we discover that we have inadvertently obtained information from an individual
+under 18 in violation of this policy, we will promptly delete it without notice.
+Privacy Policy Update:
+At VisionTech, we are committed to maintaining the transparency and integrity of our
+Privacy Policy. Here's how we handle updates:
+● Review and Revision: Our Privacy Policy is periodically reviewed and updated to ensure
+compliance with evolving legal requirements and industry standards. We may make
+material changes to the policy to enhance clarity or address new developments.
+● Notification of Changes: When we make material changes to our Privacy Policy, we will
+notify you via the VisionTech website or through other means. This notification will include
+a "Last Updated" date, indicating that you should review the revised terms.
+● Acceptance of Changes: By accessing the VisionTech website after any modifications to
+the Privacy Policy have been made, you implicitly accept the updated terms and any
+changes contained therein. Your continued use of our services signifies your agreement to
+abide by the modified Privacy Policy.
+● Periodic Review: If you miss the notification regarding policy updates, we encourage you
+to revisit this page periodically to stay informed about the latest version of our Privacy
+Policy. Keeping yourself acquainted with the current terms ensures that you understand
+our data handling practices and your rights.
+VisionTech values transparency and respects your privacy rights. If you have any questions
+or concerns regarding our Privacy Policy or its updates, please feel free to reach out to us.
+We are here to assist you and ensure that your privacy preferences are respected at all
+times.
+Contact Information:
+For any inquiries, issues, or concerns regarding our Privacy Policy, please do not hesitate
+to reach out to VisionTech's dedicated support team at support@visiontech.com. We are
+here to assist you promptly and address any questions or feedback you may have. Your
+
+privacy and satisfaction are our utmost priorities, and we strive to ensure that our policies
+and practices align with your expectations. Thank you for your trust in VisionTech.
+
+

@@ -198,7 +198,7 @@ export default function Footer() {
                 <span className="text-white font-bold text-2xl">V</span>
               </div>
               <span className="text-2xl font-bold bg-gradient-to-r from-white to-purple-200 bg-clip-text text-transparent">
-                VisionTech
+                VisionPharma
               </span>
             </div>
             <p className="text-gray-300 max-w-sm text-sm leading-relaxed">

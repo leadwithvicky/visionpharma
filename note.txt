@@ -1,0 +1,31 @@
+mentor:
+ // {
+    //     "name": "Kavitha Venkatachalam",
+    //     "linkdinUrl": "https://www.linkedin.com/in/kavitha-venkatachalam/",
+    //     "imageUrl": "https://res.cloudinary.com/denikmblr/image/upload/v1757409423/ab7dd095203da36489e45afed639d2dc76f66c6d_e1i9cs.png",
+    //     "program": "Artifical Intelligence"
+    // },
+    {
+        "name": "Bharathi Patil",
+        "linkdinUrl": "https://www.linkedin.com/in/bharathi-patil/",
+        "imageUrl": "https://res.cloudinary.com/denikmblr/image/upload/v1757409424/3bf6aeee46b26c30d469efdc05b1503075b2a539_oxxg8m.png",
+        "program": "Data Science"
+    },
+        {
+        "name": "Raj Laxmi Mishra",
+        "linkdinUrl": "https://www.linkedin.com/in/rajlaxmimishra/",
+        "imageUrl": "https://res.cloudinary.com/denikmblr/image/upload/v1757409423/47aa0ec726d79b55bf9a7ff078464252da7eccf3_1_gciazy.png",
+        "program": "Human Resources"
+    },
+     {
+        "name": "Sharath Rokkam",
+        "linkdinUrl": "https://www.linkedin.com/in/sharat-rokkam/",
+        "imageUrl": "https://res.cloudinary.com/denikmblr/image/upload/v1757409424/47aa0ec726d79b55bf9a7ff078464252da7eccf3_tk9zyk.png",
+        "program": "Mern Stack Development"
+    },
+     {
+        "name": "Sai Akhil Maram",
+        "linkdinUrl": "https://www.linkedin.com/in/sai-akhil-maram/",
+        "imageUrl": "https://res.cloudinary.com/denikmblr/image/upload/v1757409423/ab7dd095203da36489e45afed_tp0vh2.png",
+        "program": "Agentic AI"
+    },

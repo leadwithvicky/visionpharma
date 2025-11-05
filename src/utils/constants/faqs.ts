@@ -4,45 +4,45 @@ export interface FAQ {
 }
 
 export const faqs: FAQ[] = [
+  
   {
-    question: "How do I register for a VisionTech online course?",
-    answer: "Fill out the registration form on the VisionTech website. Our counselor will call you for a demo and to guide you through the registration process."
+    "question": "How do I register for a VisionPharma online course?",
+    "answer": "To enroll, simply fill out the registration form on the VisionPharma website. Our pharma education counselor will contact you to schedule a demo session and guide you through the admission process for Pharmacy, Clinical Research, or Life Science programs."
   },
   {
-    question: "Which courses does VisionTech offer?",
-    answer: "VisionTech provides job-ready programs in Engineering, Pharmacy, Agriculture, AI, Data Science, and MERN stack development."
+    "question": "Which courses does VisionPharma offer?",
+    "answer": "VisionPharma offers industry-focused programs in D.Pharmacy, B.Pharmacy, M.Pharmacy, Pharmacovigilance, Clinical Research, Regulatory Affairs, Medical Coding, QA/QC, Biotechnology, Life Sciences, and Healthcare Management."
   },
   {
-    question: "Are VisionTech's certificates recognized?",
-    answer: "Yes, VisionTech certificates are recognized by the Government of Telangana and industry employers."
+    "question": "Are VisionPharma certificates recognized?",
+    "answer": "Yes. VisionPharma certificates are recognized by the Government of Telangana and are trusted by leading pharmaceutical companies, CROs, hospitals, and healthcare organizations across India."
   },
   {
-    question: "Can working professionals enroll in VisionTech courses?",
-    answer: "Absolutely, VisionTech offers flexible online courses designed for working professionals to upskill without disrupting their schedules."
+    "question": "Can working professionals join VisionPharma programs?",
+    "answer": "Absolutely. VisionPharma provides flexible online classes designed for working Pharma, Life Science, and Healthcare professionals who want to upskill in domains like Drug Safety, Clinical Trials, and Medical Coding without affecting their work schedule."
   },
   {
-    question: "What career support does VisionTech provide?",
-    answer: "VisionTech offers internship opportunities, placement assistance, and career counseling to help you launch or advance your career."
+    "question": "What career support does VisionPharma provide?",
+    "answer": "VisionPharma offers complete career support, including internships, placement assistance, interview preparation, resume building, and direct connections to top pharmaceutical companies and CROs hiring for PV, CR, QA/QC, and Medical Coding roles."
   },
   {
-    question: "How accessible are VisionTech courses?",
-    answer: "VisionTech's courses are fully accessible on mobile devices, allowing you to learn anytime, anywhere."
+    "question": "Are VisionPharma courses accessible on mobile?",
+    "answer": "Yes. All VisionPharma courses are mobile-friendly, allowing Pharmacy and Life Science students to learn anytime from smartphones, tablets, or laptops."
   },
   {
-    question: "What technology does VisionTech use for learning?",
-    answer: "VisionTech uses adaptive e-learning platforms and interactive virtual classrooms to enhance your learning experience."
+    "question": "What learning technology does VisionPharma use?",
+    "answer": "VisionPharma uses an AI-powered LMS, virtual pharma labs, interactive simulations, and real-time case studies to make learning easier and more industry-oriented."
   },
   {
-    question: "How can I contact VisionTech for support?",
-    answer: "You can reach VisionTech support via the website contact form or by phone for any course or technical assistance."
+    "question": "How can I contact VisionPharma for support?",
+    "answer": "You can contact VisionPharma through the website support form, WhatsApp, phone, or email. Our team is available to help with admissions, career guidance, or technical issues."
   },
   {
-    "question": "What makes VisionTech different from other EdTech companies?",
-    "answer": "VisionTech offers affordable pricing, 24/7 support, and mentorship from industry-experienced professionals. Our learning management system (LMS) includes weekly tests and real-world internships, ensuring practical, job-ready skills"
+    "question": "What makes VisionPharma different from other pharma EdTech platforms?",
+    "answer": "VisionPharma stands out for its industry-aligned curriculum, affordable pricing, 24/7 student support, government-recognized certifications, and mentorship from experienced professionals working in pharmaceutical companies, hospitals, and CROs."
+  },
+  {
+    "question": "How does VisionPharma personalize learning?",
+    "answer": "VisionPharma uses adaptive learning systems that track your progress and tailor pharmacy and clinical research modules to your speed and understanding, ensuring a more personalized and effective learning experience."
   }
-  ,
-  {
-    question: "How does VisionTech personalize learning?",
-    answer: "VisionTech uses adaptive technologies to tailor course content based on your individual progress and learning style."
-  }
-];
+]

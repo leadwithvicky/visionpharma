@@ -122,7 +122,7 @@ const ProfileDropdown: React.FC<ProfileDropdownProps> = ({
               className="w-full flex items-center px-4 py-2 text-sm text-gray-700 hover:bg-gray-100"
             >
               <LayoutDashboard size={18} className="mr-3 text-gray-500" />
-              <span>Visiontech LMS</span>
+              <span>VisionPharma LMS</span>
             </Link>
 
             <button

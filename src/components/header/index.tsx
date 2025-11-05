@@ -82,9 +82,9 @@ const Header = () => {
         <div className="flex items-center justify-between h-16 md:h-20">
           {/* Logo */}
           <Link href="/" className={`flex items-center pl-2 md:pl-4  pr-5 rounded-xl ${isHallOfFamePage ? 'bg-gradient-to-r from-[#FFD87C] to-[#A47A1E]' : 'bg-white'}`}>
-            <div className="relative w-[160px] aspect-[6/2] hover:scale-105 transition-all duration-300">
+            <div className="relative w-[240px] aspect-[6/2] hover:scale-105 transition-all duration-300">
               <Image
-                src="/visiontech-logo-no-background.webp"
+                src="/visionPharma_Logo.webp"
                 alt="VisionTech Logo"
                 fill
                 unoptimized
@@ -189,7 +189,7 @@ const Header = () => {
                   }`}
                 >
                   <Settings size={18} className="mr-3" />
-                  Visiontech LMS
+                  VisionPharma LMS
                 </Link>
                 <Link
                   href="/profile"

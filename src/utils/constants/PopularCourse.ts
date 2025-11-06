@@ -22,7 +22,7 @@ const popularCourse = [
     ],
   },
   {
-    category: 'B-Pharm',
+    category: 'B.Pharm',
     courses: [
       'qa-testing-and-automation-c5',
       'artificial-intelligence-c1',
@@ -45,7 +45,7 @@ const popularCourse = [
     ],
   },
   {
-    category: 'M-Pharm',
+    category: 'M.Pharm',
     courses: [
       'Medical-Coding-c13',
       'SAS-Programming-c28',
@@ -58,14 +58,14 @@ const popularCourse = [
     ],
   },
   {
-    category: 'D-Pharm',
+    category: 'D.Pharm',
     courses: [
       // 'artificial-intelligence-c1',
       // 'qa-testing-and-automation-c5',
       // 'machine-learning-c2',
       // 'data-science-and-analytics-c3',
       // 'full-stack-web-development-c4',
-      
+
       'Medical-Coding-c13',
       'SAS-Programming-c28',
       'Pharmacovigilance-c15',
@@ -74,7 +74,7 @@ const popularCourse = [
       'Artificial-Intelligence-c32',
       'Drug-Development-Process-c33',
       'Regulatory-Affairs-c34',
-    
+
       // 'SAS-Programming-c28',
       // 'Medical-Coding-c13',
       // 'Pharmacovigilance-c15',
@@ -86,8 +86,21 @@ const popularCourse = [
       // 'finance-c75',
       // 'arvr-development-c66',
       // 'cyber-security-c63',
-      
+
       // 'robotics-c65',
+    ],
+  },
+  {
+    category: 'PharmD',
+    courses: [
+      'Medical-Coding-c13',
+      'SAS-Programming-c28',
+      'Pharmacovigilance-c15',
+      'Nano-Science-and-Nano-Technology-c30',
+      'Clinical-SAS-c31',
+      'Artificial-Intelligence-c32',
+      'Drug-Development-Process-c33',
+      'Regulatory-Affairs-c34',
     ],
   },
   // {

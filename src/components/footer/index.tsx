@@ -166,12 +166,15 @@ export default function Footer() {
     {
       title: 'CATEGORIES',
       links: [
-        { text: 'B.Tech', href: '/program?programName=B.Tech' },
-        { text: 'Pharmacy', href: '/program?programName=Pharmacy' },
-        { text: 'Degree', href: '/program?programName=Degree' },
-        { text: 'MBA', href: '/program?programName=MBA' },
-        { text: 'MCA', href: '/program?programName=MCA' },
-        { text: 'Agriculture', href: '/program?programName=Agriculture' },
+        // { text: 'B.Tech', href: '/program?programName=B.Tech' },
+        { text: 'B.Pharm', href: '/program?programName=B.Pharm' },
+        { text: 'M.Pharm', href: '/program?programName=M.Pharm' },
+        { text: 'D.Pharm', href: '/program?programName=D.Pharm' },
+        { text: 'PharmD', href: '/program?programName=PharmD' },
+        // { text: 'Degree', href: '/program?programName=Degree' },
+        // { text: 'MBA', href: '/program?programName=MBA' },
+        // { text: 'MCA', href: '/program?programName=MCA' },
+        // { text: 'Agriculture', href: '/program?programName=Agriculture' },
       ],
     },
     {

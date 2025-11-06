@@ -19,7 +19,7 @@ const HeroSection = () => (
       
     </div>
     <div className="w-full  ">
-        <TrustedByMarquee />
+        {/* <TrustedByMarquee /> */}
       </div>
   </section>
 );

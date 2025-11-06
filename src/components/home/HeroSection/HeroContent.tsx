@@ -11,7 +11,7 @@ const HeroContent = () => {
         <h1 className="leading-tight">
           VisionPharma : Job-Ready Programs in{' '}
           <span className="bg-clip-text text-transparent bg-gradient-to-r from-black to-indigo-600">
-            Pharmacy, Management
+            Pharmacy
           </span>
         </h1>
        <div className="text-lg sm:text-lg md:text-xl mt-2 font-medium text-black">
@@ -25,7 +25,7 @@ const HeroContent = () => {
         transition={{ delay: 0.2 }}
         className="hidden md:block text-lg md:text-lg text-black lg:mx-0 tracking-tight font-medium"
       >
-        <strong>VisionPharma</strong> offers industry-certified, job-ready programs in <strong> Pharmacy, Agriculture, Management, and Emerging Technologies</strong>. Learn practical skills, get hands-on experience, and build your career faster with VisionPharma.
+        <strong>VisionPharma</strong> offers industry-certified, job-ready programs in <strong> Pharmacy and Emerging Technologies</strong>. Learn practical skills, get hands-on experience, and build your career faster with VisionPharma.
       </motion.div>
 
       <motion.div

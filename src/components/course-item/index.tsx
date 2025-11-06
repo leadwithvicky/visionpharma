@@ -40,22 +40,24 @@ export default function CourseItem() {
 
   useEffect(() => {
     async function getCourse() {
-      const { data } = await apiClient.get(
-        `${COURSE_ROUTES.base}?program=${programName}&branch=${
-          selectedBranch === 'Information Technology'
-            ? 'Computer Science Engineering'
-            : (selectedBranch ?? '')
-        }`
-      );
+      if (courseCategory) {
+        const { data } = await apiClient.get(
+          `${COURSE_ROUTES.base}?program=${courseCategory.program}&branch=${
+            selectedBranch === 'Information Technology'
+              ? 'Computer Science Engineering'
+              : (selectedBranch ?? '')
+          }`
+        );
 
-      setFilteredCourses(data.data.data);
+        setFilteredCourses(data.data.data);
+      }
     }
 
     getCourse();
     // if (courseCategory) {
     //   setFilteredCourses(courseCategory.courses);
     // }
-  }, [selectedBranch, programName]);
+  }, [selectedBranch, programName, courseCategory]);
 
   // console.log(filteredCourses, selectedBranch);
 

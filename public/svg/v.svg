@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" preserveAspectRatio="xMidYMid slice">
+  <defs>
+    <!-- Main gradient -->
+    <linearGradient id="vp-main" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#005CAF"></stop>
+      <stop offset="70%" stop-color="#0A6FBF"></stop>
+      <stop offset="100%" stop-color="#13AB82"></stop>
+    </linearGradient>
+
+    <!-- Light noise texture -->
+    <filter id="vp-noise">
+      <feTurbulence type="fractalNoise" baseFrequency="0.8" numOctaves="3" seed="8"></feTurbulence>
+      <feColorMatrix type="saturate" values="0"></feColorMatrix>
+      <feComponentTransfer>
+        <feFuncA type="linear" slope="0.04"></feFuncA>
+      </feComponentTransfer>
+    </filter>
+  </defs>
+
+  <!-- Base gradient -->
+  <rect width="1600" height="900" fill="url(#vp-main)"></rect>
+
+  <!-- ✅ Wave 1 (Top Wave – faster, sharper) -->
+  <path d="
+    M0,180
+    C260,140 520,120 760,160
+    C1040,210 1280,150 1600,120
+    L1600,0 L0,0 Z" fill="rgba(255,255,255,0.10)"></path>
+
+  <!-- ✅ Wave 2 (Middle Wave – strong movement) -->
+  <path d="
+    M0,380
+    C240,340 460,400 700,420
+    C960,445 1220,380 1600,330
+    L1600,550 L0,550 Z" fill="rgba(19,171,130,0.20)"></path>
+
+  <!-- ✅ Wave 3 (Base Wave – deep, bold) -->
+  <path d="
+    M0,620
+    C260,680 540,720 810,710
+    C1080,700 1340,650 1600,690
+    L1600,900 L0,900 Z" fill="rgba(0,92,175,0.25)"></path>
+
+  <!-- ✅ Very subtle texture -->
+  <rect width="1600" height="900" filter="url(#vp-noise)" opacity="0.15"></rect>
+</svg>

@@ -15,7 +15,7 @@ export const founders: Employee[] = [
       'https://res.cloudinary.com/denikmblr/image/upload/v1752042104/kground_10_1_md8lpn.png',
     linkedInUrl: 'https://www.linkedin.com/in/vinay-teja-2aa29a1a1/',
     portfolioUrl: 'https://www.vinayteja.com/',
-    description: 'A visionary leader with a passion for transforming education through technology. With extensive experience in edtech and a deep understanding of student needs, Vinay drives innovation and strategic growth at VisionTech. His commitment to excellence and student success has been the cornerstone of our company\'s mission to democratize quality education.',
+    description: 'A visionary leader with a passion for transforming education through technology. With extensive experience in edtech and a deep understanding of student needs, Vinay drives innovation and strategic growth at VisionTech Group. His commitment to excellence and student success has been the cornerstone of our company\'s mission to democratize quality education.',
   },
   {
     name: 'Vamshi Krishna Elda',
@@ -24,7 +24,7 @@ export const founders: Employee[] = [
       'https://res.cloudinary.com/denikmblr/image/upload/v1760783530/WhatsApp_Image_2025-10-18_at_15.43.36_7a63e904_ejv9ml.jpg',
     linkedInUrl: 'https://www.linkedin.com/in/vamshi-krishna-edla-2334a8221/',
     portfolioUrl: 'https://portfolio-vamshi-krishna-edla.vercel.app/',
-    description: 'A strategic leader focused on operational excellence and team development. Vamshi brings expertise in business operations and talent management, ensuring VisionTech delivers exceptional learning experiences. His collaborative approach and attention to detail have been instrumental in building a culture of continuous improvement and student-centric innovation at VisionTech.',
+    description: 'A strategic leader focused on operational excellence and team development. Vamshi brings expertise in business operations and talent management, ensuring VisionTech Group delivers exceptional learning experiences. His collaborative approach and attention to detail have been instrumental in building a culture of continuous improvement and student-centric innovation at VisionTech Group.',
   },
 ];
 

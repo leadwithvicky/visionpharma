@@ -75,7 +75,7 @@ const AboutCTA = ({
               transition={{ delay: 0.4, duration: 0.8, ease: 'easeOut' }}
               className="space-y-2 font-bold text-white tracking-wide max-w-lg"
             >
-              <p className="text-lg">At VisionTech,</p>
+              <p className="text-lg">At VisionPharma,</p>
               <h2 className="text-lg flex flex-col  leading-tight">
                 <span className="">
                   Education is not just a service - it&apos;s our

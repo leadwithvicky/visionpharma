@@ -13,7 +13,7 @@ const Certificates: Certificate[] = [
     id: 1,
     image: IMAGE.IMP_DOCS.INCORPERATION,
     hasVerificationButton: true,
-    verificationCode: 'VISIONTECH ACADEMY PRIVATE LIMITED',
+    verificationCode: 'VISIONPHARMA ACADEMY PRIVATE LIMITED',
     verificationUrl:
       'https://www.mca.gov.in/content/mca/global/en/mca/fo-llp-services/company-llp-name-search.html',
   },

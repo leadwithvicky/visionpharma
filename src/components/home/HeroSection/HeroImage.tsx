@@ -1,4 +1,5 @@
-// components/Hero/HeroImage.tsx
+'use client';
+
 import { motion } from 'framer-motion';
 import Image from 'next/image';
 
@@ -6,16 +7,17 @@ export const HeroImage = () => (
   <motion.div
     initial={{ opacity: 0, y: 20 }}
     animate={{ opacity: 1, y: 0 }}
-    className="h-[300px] sm:h-[350px] md:h-[400px] lg:h-[400px] w-full lg:w-[510px] relative "
+    transition={{ delay: 0.2 }}
+    className="relative h-[260px] sm:h-[320px] md:h-[380px] lg:h-[420px] xl:h-[450px] w-full lg:w-[520px] flex justify-center"
   >
     <Image
-      className="absolute rounded-xl sm:rounded-2xl object-contain"
       src="/pharmalogo.png"
-      alt="Student learning online through VisionTech's B.Tech, MBA, MCA, and Pharmacy courses with expert mentorship"
+      alt="VisionPharma - Pharmacy Courses, Pharmacovigilance Training, Clinical Research Training"
       fill
       priority
-      quality={90}
-      sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 510px"
+      quality={95}
+      className="object-contain rounded-xl sm:rounded-2xl"
+      sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 520px"
     />
   </motion.div>
 );

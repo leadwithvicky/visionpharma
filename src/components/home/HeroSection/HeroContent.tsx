@@ -1,69 +1,83 @@
+'use client';
+
 import { motion } from 'framer-motion';
 
 const HeroContent = () => {
   return (
-    <div className="flex flex-col items-center lg:items-start">
+    <div className="flex flex-col items-center lg:items-start w-full">
+      
+      {/* ✅ Main Heading */}
       <motion.div
         initial={{ opacity: 0, y: 20 }}
         animate={{ opacity: 1, y: 0 }}
-        className="text-2xl flex flex-col w-full sm:text-2xl md:text-3xl lg:text-5xl font-bold mb-3 sm:mb-4 tracking-wide md:!leading-[2.5rem] xl:!leading-[3rem] lg:mx-0 text-foreground text-center lg:text-left"
+        className="w-full text-center lg:text-left tracking-wide"
       >
-        <h1 className="leading-tight">
+        <h1 className="text-[1.9rem] sm:text-[2.3rem] md:text-[2.7rem] lg:text-[3.3rem] xl:text-[3.7rem] font-extrabold leading-tight text-white">
           VisionPharma : Job-Ready Programs in{' '}
-          <span className="bg-clip-text text-transparent bg-gradient-to-r from-black to-indigo-600">
-            Pharmacy
+          <span className="bg-clip-text text-transparent bg-gradient-to-r from-white to-[#13AB82]">
+            Pharmacy & Life Sciences
           </span>
         </h1>
-       <div className="text-lg sm:text-lg md:text-2xl mt-2 font-medium text-black">
-    Industry-Certified, Practical Skills. Build Your Career Faster.
-  </div>
+
+        <p className="mt-3 sm:mt-4 text-base sm:text-lg md:text-xl font-medium text-[#F0F6FA]">
+          Industry-Certified Training • Hands-On Skills • Fast Career Growth
+        </p>
       </motion.div>
 
-      <motion.div
+      {/* ✅ SEO-Rich Supporting Line */}
+      <motion.p
         initial={{ opacity: 0, y: 20 }}
         animate={{ opacity: 1, y: 0 }}
         transition={{ delay: 0.2 }}
-        className="hidden md:block text-lg md:text-xl text-black lg:mx-0 tracking-tight font-medium"
+        className="hidden md:block mt-4 text-base md:text-lg text-[#E4EEF4] tracking-tight max-w-[600px]"
       >
-        <strong>VisionPharma</strong> offers industry-certified, job-ready programs in <strong> Pharmacy and Emerging Technologies</strong>. Learn practical skills, get hands-on experience, and build your career faster with VisionPharma.
-      </motion.div>
+        VisionPharma delivers <strong className="text-white">industry-aligned Pharmacy, Pharmacovigilance,
+        Clinical Research, Medical Coding, and Pharma IT programs</strong> designed to build real
+        skills and prepare you for top job opportunities across the pharma & healthcare industry.
+      </motion.p>
 
+      {/* ✅ Buttons */}
       <motion.div
         initial={{ opacity: 0, y: 20 }}
         animate={{ opacity: 1, y: 0 }}
         transition={{ delay: 0.3 }}
-        className="mt-6 flex flex-col sm:flex-row gap-3 items-center lg:items-start"
+        className="mt-6 flex flex-col sm:flex-row items-center lg:items-start gap-3 w-full lg:w-auto"
       >
+        {/* Primary CTA */}
         <a
           href="#popular-courses"
-          className="bg-purple-600 text-white px-5 py-2.5 rounded-lg font-semibold hover:bg-purple-700 transition text-center w-full sm:w-auto"
+          className="bg-[#13AB82] text-white px-6 py-3 rounded-lg font-semibold hover:bg-[#0F8E6D] transition-all duration-200 w-full sm:w-auto text-center shadow-md"
         >
           Explore Courses
         </a>
+
+        {/* Secondary CTA */}
         <a
           href="/contact#contact-form"
-          className="border border-purple-600 text-purple-600 px-5 py-2.5 rounded-lg font-semibold hover:bg-purple-50 transition text-center w-full sm:w-auto"
+          className="border border-white text-white px-6 py-3 rounded-lg font-semibold hover:bg-white hover:text-[#005CAF] transition-all duration-200 w-full sm:w-auto text-center shadow-md"
         >
-          Get Free Career Counselling
+          Free Career Counselling
         </a>
       </motion.div>
 
+      {/* ✅ Trust Badges */}
       <motion.div
         initial={{ opacity: 0, y: 20 }}
         animate={{ opacity: 1, y: 0 }}
         transition={{ delay: 0.4 }}
-        className="mt-4 text-sm text-black flex items-center gap-4 flex-wrap justify-center lg:justify-start"
+        className="mt-5 flex flex-wrap justify-center lg:justify-start gap-4 text-sm text-white"
       >
         <span className="flex items-center gap-1">
-          <span className="text-green-500">✓</span> 100% Certification Guarantee
+          ✅ 100% Industry Certification
         </span>
         <span className="flex items-center gap-1">
-          <span className="text-blue-500">🌐</span> Learn from Anywhere
+          🌐 Learn From Anywhere
         </span>
         <span className="flex items-center gap-1">
-          <span className="text-purple-500">👨‍🏫</span> Industry Expert Mentors
+          👨‍🏫 Expert Pharma Mentors
         </span>
       </motion.div>
+
     </div>
   );
 };

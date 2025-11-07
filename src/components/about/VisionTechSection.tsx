@@ -22,12 +22,12 @@ const VisionTechSection = () => {
       >
         <h1 className="text-3xl mb-6">
           <span className="font-extrabold text-transparent bg-gradient-to-r from-[#56088F] to-[#1A3364] bg-clip-text">
-            VisionTech
+            VisionPharma
           </span>
         </h1>
 
         <p className="text-foreground leading-relaxed">
-          VisionTech is founded by <b>Vinay Teja</b>, alumni of CBIT and
+          VisionPharma is founded by <b>Vinay Teja</b>, alumni of CBIT and
           co-founded by <b>Vamshi Krishna</b>, alumni of Anurag University, with
           the vision of bridging the gap between quality education and
           real-world skills...

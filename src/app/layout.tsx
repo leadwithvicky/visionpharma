@@ -23,7 +23,7 @@ const urbanist = Urbanist({
 
 export const metadata: Metadata = {
   title: 'VisionPharma | Job-Ready Programs in Pharmacy, Management',
-  description: 'VisionTech offers industry-certified job-ready programs in Engineering, Pharmacy, Agriculture, Management, and Emerging Technologies. Learn practical skills, get hands-on experience, and build your career faster with VisionTech.',
+  description: 'VisionPharma offers industry-certified job-ready programs in  Pharmacy. Learn practical skills, get hands-on experience, and build your career faster with VisionTech.',
   icons: '/logo-small.webp',
   metadataBase: new URL('https://visiontech.world'),
   openGraph: {

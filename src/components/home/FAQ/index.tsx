@@ -22,7 +22,7 @@ export default function FAQSection() {
             className="text-xl md:text-2xl lg:text-4xl font-bold text-white tracking-wide"
           />
           <p className="mt-2 text-sm md:text-base text-gray-300">
-            Answers to the most common questions about VisionTech programs.
+            Answers to the most common questions about VisionPharma programs.
           </p>
         </div>
 

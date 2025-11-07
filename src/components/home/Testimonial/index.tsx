@@ -20,7 +20,7 @@ export default function Testimonials() {
           </div>
 
           <h2 className="text-xl md:text-2xl lg:text-4xl font-bold text-black tracking-wide">
-            Insights From VisionTech Users
+            Insights From VisionPharma Users
           </h2>
         </div>
 

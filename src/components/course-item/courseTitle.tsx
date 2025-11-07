@@ -11,13 +11,11 @@ const CourseTitle = ({ programName }: { programName: string }) => {
 
   // Mapping object to handle course name transformations
   const programNameMap: { [key: string]: string } = {
-    btech: 'B.Tech',
     pharmacy: 'Pharmacy',
-    mba: 'MBA',
-    mca: 'MCA',
-    agriculture: 'Agriculture',
-    degree: 'Degree',
   };
+
+  // List of pharmacy-related program names
+  const pharmaPrograms = ['pharmacy', 'b.pharm', 'm.pharm', 'd.pharm', 'pharmd', 'bsc', 'msc'];
 
   const handleBackNavigation = (path: string, elementId?: string) => {
     router.push(path);
@@ -32,6 +30,9 @@ const CourseTitle = ({ programName }: { programName: string }) => {
   // Use the mapping to determine the display name, or fall back to the original
   const displayProgramName =
     programNameMap[programName.toLowerCase()] || programName;
+
+  // Check if the program is pharmacy-related
+  const isPharmaProgram = pharmaPrograms.includes(programName.toLowerCase());
 
   return (
     <div>
@@ -55,34 +56,36 @@ const CourseTitle = ({ programName }: { programName: string }) => {
           <h1 className="text-4xl font-bold text-center mb-4">
             {displayProgramName}
           </h1>
-          <div className="flex items-center justify-center gap-2 text-sm text-gray-600">
-            <span
-              className="cursor-pointer hover:text-purple-600 transition-colors"
-              onClick={() => handleBackNavigation('/')}
-            >
-              VisionTech
-            </span>
-            <span>›</span>
-            <span
-              className="cursor-pointer hover:text-purple-600 transition-colors"
-              onClick={() => handleBackNavigation('/', 'topCategory')}
-            >
-              Programs
-            </span>
-            <span>›</span>
-            <span
-              className="cursor-pointer hover:text-purple-600 transition-colors"
-              onClick={() => router.push(`/program?programName=${programName}`)}
-            >
-              {displayProgramName}
-            </span>
-            {branch && (
-              <>
-                <span>›</span>
-                <span className="text-purple-600">{branch}</span>
-              </>
-            )}
-          </div>
+          {isPharmaProgram && (
+            <div className="flex items-center justify-center gap-2 text-sm text-gray-600">
+              <span
+                className="cursor-pointer hover:text-purple-600 transition-colors"
+                onClick={() => handleBackNavigation('/')}
+              >
+                Home
+              </span>
+              <span>›</span>
+              <span
+                className="cursor-pointer hover:text-purple-600 transition-colors"
+                onClick={() => handleBackNavigation('/', 'topCategory')}
+              >
+                Programs
+              </span>
+              <span>›</span>
+              <span
+                className="cursor-pointer hover:text-purple-600 transition-colors"
+                onClick={() => router.push(`/program?programName=${programName}`)}
+              >
+                {displayProgramName}
+              </span>
+              {branch && (
+                <>
+                  <span>›</span>
+                  <span className="text-purple-600">{branch}</span>
+                </>
+              )}
+            </div>
+          )}
         </div>
       </div>
     </div>

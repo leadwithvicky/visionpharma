@@ -171,6 +171,8 @@ export default function Footer() {
         { text: 'M.Pharm', href: '/program?programName=M.Pharm' },
         { text: 'D.Pharm', href: '/program?programName=D.Pharm' },
         { text: 'PharmD', href: '/program?programName=PharmD' },
+        { text: 'BSC', href: '/program?programName=bsc' },
+        { text: 'MSC', href: '/program?programName=msc' },
         // { text: 'Degree', href: '/program?programName=Degree' },
         // { text: 'MBA', href: '/program?programName=MBA' },
         // { text: 'MCA', href: '/program?programName=MCA' },

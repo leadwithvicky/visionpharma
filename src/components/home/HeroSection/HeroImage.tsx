@@ -10,7 +10,7 @@ export const HeroImage = () => (
   >
     <Image
       className="absolute rounded-xl sm:rounded-2xl object-contain"
-      src="/images/home/hero-illustration.png"
+      src="/pharmalogo.png"
       alt="Student learning online through VisionTech's B.Tech, MBA, MCA, and Pharmacy courses with expert mentorship"
       fill
       priority

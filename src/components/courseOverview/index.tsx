@@ -122,17 +122,21 @@ const CourseOverview = () => {
                 >
                   Programs
                 </span>
-                <span>›</span>
-                <span
-                  className="cursor-pointer hover:text-purple-600 transition-colors"
-                  onClick={() =>
-                    router.push(
-                      `/program?programName=${course?.program}&branch=${course?.branch}`
-                    )
-                  }
-                >
-                  {course?.program ?? ''}
-                </span>
+                {course?.program !== 'Degree' && (
+                  <>
+                    <span>›</span>
+                    <span
+                      className="cursor-pointer hover:text-purple-600 transition-colors"
+                      onClick={() =>
+                        router.push(
+                          `/program?programName=${course?.program}&branch=${course?.branch}`
+                        )
+                      }
+                    >
+                      {course?.program ?? ''}
+                    </span>
+                  </>
+                )}
                 <span>›</span>
                 <span className="text-purple-600 truncate">
                   {course?.title ?? ''}

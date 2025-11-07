@@ -16,7 +16,7 @@ interface CTAProps {
 }
 
 const AboutCTA = ({
-  subtitle = "At VisionTech, education is not just a service - it's our mission in shaping a smarter, more inclusive future through technology and learning!",
+  subtitle = "At VisionPharma, education is not just a service - it's our mission in shaping a smarter, more inclusive future through technology and learning!",
   ctaText = 'Get Your Skills Certificate',
   actionButtonText = 'Join our community',
   imagePath = '/images/home/cta/cta.webp',

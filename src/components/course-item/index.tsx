@@ -9,6 +9,7 @@ import axios from 'axios';
 import GoogleAnalyticsTemplate from '../Google.Analytics.Template';
 import { COURSE_ROUTES } from '@/routes-endpoint';
 import apiClient from '@/services/apiClient';
+import { getPopularCourse } from '@/utils/constants/PopularCourse';
 
 // types.ts
 
@@ -41,14 +42,38 @@ export default function CourseItem() {
   useEffect(() => {
     async function getCourse() {
       if (courseCategory) {
+        // First try to match the exact same set as on the Home popular categories
+        // Resolve category to match Home Popular categories exactly
+        const branchKey = selectedBranch?.split(' ').join('-');
+        let desiredCategory = courseCategory.name;
+        if (courseCategory.name === 'Pharmacy') {
+          if (branchKey === 'Bachelor-of-Pharmacy') desiredCategory = 'B.Pharm';
+          else if (branchKey === 'Master-of-Pharmacy') desiredCategory = 'M.Pharm';
+          else if (branchKey === 'Doctor-of-Pharmacy') desiredCategory = 'PharmD';
+          else if (branchKey === 'Diploma-in-Pharmacy') desiredCategory = 'D.Pharm';
+        }
+        const popular = getPopularCourse().find(
+          (c) => c.category === desiredCategory
+        );
+        if (popular?.courses?.length) {
+          setFilteredCourses(popular.courses as any);
+          return;
+        }
+
+        // Fallback to API by program + branch
+        // If Pharmacy page is showing Degree branches (B.Sc/M.Sc), switch to Degree program for accurate results
+        const isScienceBranch =
+          selectedBranch === 'Bachelor of Science' ||
+          selectedBranch === 'Master of Science';
+        const programParam = isScienceBranch ? 'Degree' : courseCategory.program;
+
         const { data } = await apiClient.get(
-          `${COURSE_ROUTES.base}?program=${courseCategory.program}&branch=${
+          `${COURSE_ROUTES.base}?program=${programParam}&branch=${
             selectedBranch === 'Information Technology'
               ? 'Computer Science Engineering'
               : (selectedBranch ?? '')
           }`
         );
-
         setFilteredCourses(data.data.data);
       }
     }

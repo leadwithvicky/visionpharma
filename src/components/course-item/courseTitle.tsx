@@ -1,11 +1,13 @@
 'use client';
 import React from 'react';
-import { useRouter } from 'next/navigation';
+import { useRouter, useSearchParams } from 'next/navigation';
 import { IoChevronBack } from 'react-icons/io5';
 import Link from 'next/link';
 
 const CourseTitle = ({ programName }: { programName: string }) => {
   const router = useRouter();
+  const searchParams = useSearchParams();
+  const branch = searchParams?.get('branch');
 
   // Mapping object to handle course name transformations
   const programNameMap: { [key: string]: string } = {
@@ -68,7 +70,18 @@ const CourseTitle = ({ programName }: { programName: string }) => {
               Programs
             </span>
             <span>›</span>
-            <span className="text-purple-600">{displayProgramName}</span>
+            <span
+              className="cursor-pointer hover:text-purple-600 transition-colors"
+              onClick={() => router.push(`/program?programName=${programName}`)}
+            >
+              {displayProgramName}
+            </span>
+            {branch && (
+              <>
+                <span>›</span>
+                <span className="text-purple-600">{branch}</span>
+              </>
+            )}
           </div>
         </div>
       </div>

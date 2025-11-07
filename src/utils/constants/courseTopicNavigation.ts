@@ -19,15 +19,18 @@ export const COURSE_BRANCH_NAVIGATION: Record<string, CourseCategory> = {
   //     'Automobile-Engineering',
   //   ],
   // },
-  // pharmacy: {
-  //   name: 'Pharmacy',
-  //   branch: [
-  //     'Bachelor-of-Pharmacy',
-  //     'Master-of-Pharmacy',
-  //     'Doctor-of-Pharmacy',
-  //     'Diploma-in-Pharmacy',
-  //   ],
-  // },
+  pharmacy: {
+    name: 'Pharmacy',
+    branch: [
+      'Bachelor-of-Pharmacy',
+      'Master-of-Pharmacy',
+      'Doctor-of-Pharmacy',
+      'Diploma-in-Pharmacy',
+      'Bachelor-of-Science',
+      'Master-of-Science',
+    ],
+    program: 'Pharmacy',
+  },
   'b.pharm': {
     name: 'B.Pharm',
     branch: ['Bachelor-of-Pharmacy'],
@@ -55,7 +58,7 @@ export const COURSE_BRANCH_NAVIGATION: Record<string, CourseCategory> = {
   },
   'msc': {
     name: 'MSC',
-    branch: ['Master-of-Science'],
+    branch: ['Bachelor-of-Science'],
     program: 'Degree',
   },
   // degree: {

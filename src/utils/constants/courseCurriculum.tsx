@@ -113,6 +113,152 @@ export const courseAPIData: {
     ],
   },
   {
+    key: 'clinical-research-coordinator-c206',
+    title: 'Clinical Research Coordinator (CRC) Program',
+    description:
+      'Become an industry-ready Clinical Research Coordinator with hands-on training in clinical trial operations, site management, GCP guidelines, documentation, and patient handling.',
+    modules: [
+      {
+        title: 'Clinical Research Fundamentals & Site Operations',
+        months: [
+          {
+            title: 'Month 1: Foundations of Clinical Research & CRC Responsibilities',
+            weeks: [
+              {
+                title: 'Overview of Clinical Research',
+                topics: [
+                  'Drug Discovery & Development Process',
+                  'Clinical Trial Phases (Phase I–IV)',
+                  'Roles in Clinical Research (CRA, CRC, PI, Sponsor)'
+                ],
+                handson: ['Create a flowchart of the Clinical Trial Lifecycle']
+              },
+              {
+                title: 'GCP, ICH Guidelines & Ethics',
+                topics: [
+                  'ICH-GCP Principles',
+                  'Regulatory Authorities: FDA, EMA, CDSCO',
+                  'Ethics Committee Submissions & Approvals'
+                ],
+                handson: ['Prepare an Ethics Committee submission draft']
+              },
+              {
+                title: 'CRC Roles & Responsibilities',
+                topics: [
+                  'Site Management Basics',
+                  'Scheduling Patient Visits & Visit Preparation',
+                  'Handling Protocols & Study Supplies'
+                ],
+                handson: ['Create a Site Initiation Visit (SIV) checklist']
+              },
+              {
+                title: 'Clinical Trial Documentation',
+                topics: [
+                  'Essential Documents: ISF, TMF',
+                  'Informed Consent Process',
+                  'Source Documentation & Data Capture'
+                ],
+                handson: ['Prepare a mock Informed Consent Form (ICF) process flow']
+              }
+            ]
+          },
+          {
+            title: 'Month 2: Site Coordination, Data Handling & Study Management',
+            weeks: [
+              {
+                title: 'Patient Recruitment & Study Execution',
+                topics: [
+                  'Screening & Enrolment Procedures',
+                  'Inclusion/Exclusion Criteria Handling',
+                  'Patient Follow-up & Retention'
+                ],
+                handson: ['Develop a patient recruitment plan']
+              },
+              {
+                title: 'Clinical Data Handling',
+                topics: [
+                  'CRF Filling & Source Data Verification (SDV)',
+                  'EDC Systems (Rave, Inform, Oracle Clinical)',
+                  'Query Management & Data Cleaning'
+                ],
+                handson: ['Fill a sample CRF and resolve mock queries']
+              },
+              {
+                title: 'Site Monitoring & Audits',
+                topics: [
+                  'Monitoring Visit Preparation (SIV, IMV, COV)',
+                  'Deviation & CAPA Management',
+                  'Inspection-Readiness Practices'
+                ],
+                handson: ['Prepare a monitoring visit readiness checklist']
+              },
+              {
+                title: 'Career Skills, Tools & Final Assessment',
+                topics: [
+                  'Interview Preparation for CRC Roles',
+                  'Documentation Tools (CTMS, EDC, eTMF)',
+                  'Resume & Portfolio Building'
+                ],
+                handson: ['Build your personal CRC project portfolio']
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+  ,
+  {
+    key: 'clinical-research-c205',
+    title: 'Clinical Research',
+    description:
+      'End-to-end clinical research covering protocol design, monitoring, data management, safety, and regulatory submissions.',
+    modules: [
+      {
+        title: 'Clinical Research Overview',
+        months: [
+          {
+            title: 'Month 1: Trial Design to Close-Out',
+            weeks: [
+              {
+                title: 'Trial Phases & Protocol',
+                topics: [
+                  'Phase I–IV overview',
+                  'Protocol & CRF design basics',
+                  'Randomization & blinding',
+                ],
+              },
+              {
+                title: 'Monitoring & Documentation',
+                topics: [
+                  'Monitoring plan & visit reports',
+                  'Source documentation standards',
+                  'Deviation/CAPA management',
+                ],
+              },
+              {
+                title: 'Safety & Reporting',
+                topics: [
+                  'AE/SAE collection & MedDRA basics',
+                  'DSUR/PSUR overview',
+                  'Regulatory safety timelines',
+                ],
+              },
+              {
+                title: 'Data Management & Submission',
+                topics: [
+                  'eCRF & EDC basics',
+                  'Data cleaning & lock',
+                  'Overview of CTD/eCTD submissions',
+                ],
+              },
+            ],
+          },
+        ],
+      },
+    ],
+  },
+  {
     key: 'machine-learning-c2',
     title: 'Machine Learning Fundamentals',
     description:
@@ -512,6 +658,295 @@ export const courseAPIData: {
       },
     ],
   },
+  {
+  key: 'clinical-data-mining-c3',
+  title: 'Clinical Data Mining & Healthcare Analytics',
+  description:
+    'Learn how to collect, clean, analyze, and interpret clinical data using modern tools like Python, SQL, and visualization platforms.',
+  modules: [
+    {
+      title: 'Foundations of Data Mining in Healthcare',
+      months: [
+        {
+          title: 'Month 1: Clinical Data Basics & Tools',
+          weeks: [
+            {
+              title: 'Introduction to Clinical Data',
+              topics: [
+                'Types of Clinical Data: EHR, EMR, Claims Data',
+                'Data Standards: CDISC, SDTM, ADaM',
+                'Data Privacy: HIPAA, GDPR'
+              ],
+              handson: ['Explore a sample clinical dataset']
+            },
+            {
+              title: 'Data Collection & Cleaning',
+              topics: [
+                'Data Preprocessing',
+                'Missing Value Treatment',
+                'Outlier Detection & Normalization'
+              ],
+              handson: ['Clean a raw clinical data file']
+            },
+            {
+              title: 'SQL & Database Operations',
+              topics: [
+                'SQL Basics',
+                'Creating & Querying Tables',
+                'Joins, Aggregations, Group By'
+              ],
+              handson: ['Write SQL queries for patient data']
+            },
+            {
+              title: 'Python for Clinical Data',
+              topics: [
+                'Pandas for Data Manipulation',
+                'Numpy for Computations',
+                'Matplotlib & Seaborn for Visualization'
+              ],
+              handson: ['Generate visual insights from a dataset']
+            }
+          ]
+        },
+        {
+          title: 'Month 2: Advanced Clinical Analytics',
+          weeks: [
+            {
+              title: 'Statistical Analysis in Healthcare',
+              topics: [
+                'Descriptive & Inferential Statistics',
+                'Hypothesis Testing',
+                'Survival Analysis Basics'
+              ],
+              handson: ['Perform a t-test on clinical data']
+            },
+            {
+              title: 'Machine Learning for Clinical Insights',
+              topics: [
+                'Regression & Classification Models',
+                'Predictive Analytics',
+                'Model Evaluation'
+              ],
+              handson: ['Build a simple ML prediction model']
+            },
+            {
+              title: 'Visualization & Reporting',
+              topics: [
+                'Dashboards using Power BI / Tableau',
+                'Trend Analysis',
+                'Clinical KPI Monitoring'
+              ],
+              handson: ['Build a clinical analytics dashboard']
+            },
+            {
+              title: 'Real-World Applications & Portfolio',
+              topics: [
+                'Drug Safety Signal Detection',
+                'Patient Risk Stratification',
+                'Clinical Trial Data Analysis'
+              ],
+              handson: ['Create a project portfolio using clinical datasets']
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
+,
+ 
+  {
+  key: 'pharma-quality-assurance-c2',
+  title: 'Quality Assurance in Pharmaceuticals',
+  description:
+    'Master GMP, GLP, validation processes, audits, documentation practices, and industry-level QA operations.',
+  modules: [
+    {
+      title: 'Foundations of Pharmaceutical QA',
+      months: [
+        {
+          title: 'Month 1: QA Fundamentals & GMP Systems',
+          weeks: [
+            {
+              title: 'Introduction to Pharmaceutical QA',
+              topics: [
+                'What is QA? QA vs QC',
+                'Drug Manufacturing Overview',
+                'Quality Systems in Pharma'
+              ],
+              handson: ['Prepare a QA workflow chart']
+            },
+            {
+              title: 'GMP & Compliance',
+              topics: [
+                'WHO, USFDA, MHRA & EMA GMP Guidelines',
+                'Documentation: SOPs, BMR, BPR',
+                'Deviation, CAPA, Change Control Systems'
+              ],
+              handson: ['Draft a sample SOP']
+            },
+            {
+              title: 'Validation & Qualification',
+              topics: [
+                'Process Validation',
+                'Equipment Qualification (IQ/OQ/PQ)',
+                'Cleaning Validation'
+              ],
+              handson: ['Prepare an IQ/OQ/PQ checklist']
+            },
+            {
+              title: 'Quality Risk Management',
+              topics: [
+                'Root Cause Analysis (RCA)',
+                'FMEA (Failure Mode & Effect Analysis)',
+                'Risk Assessment Tools'
+              ],
+              handson: ['Create a risk matrix']
+            }
+          ]
+        },
+        {
+          title: 'Month 2: Audits, Documentation & Industry Practices',
+          weeks: [
+            {
+              title: 'Internal & External Audits',
+              topics: [
+                'Audit Types (Internal, Vendor, Regulatory)',
+                '21 CFR Part 11 Compliance',
+                'Audit Checklist Preparation'
+              ],
+              handson: ['Prepare an audit readiness checklist']
+            },
+            {
+              title: 'Quality Control Processes',
+              topics: [
+                'Sampling & Testing',
+                'Stability Studies',
+                'Lab Controls & Safety'
+              ],
+              handson: ['Design a stability study plan']
+            },
+            {
+              title: 'Pharma Documentation & Data Integrity',
+              topics: [
+                'ALCOA+ Principles',
+                'Electronic Records & Compliance',
+                'Batch Record Review'
+              ],
+              handson: ['Review and correct a BMR sample']
+            },
+            {
+              title: 'Industry Tools & Career Development',
+              topics: [
+                'Software: LIMS, TrackWise, MasterControl',
+                'Interview Preparation',
+                'Portfolio & Resume Building'
+              ],
+              handson: ['Create a QA case study for your portfolio']
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
+,
+  {
+  key: 'medical-writing-c1',
+  title: 'Medical Writing & Regulatory Documentation',
+  description:
+    'Learn scientific communication, regulatory writing, clinical documentation, and pharmacovigilance writing with real-world assignments.',
+  modules: [
+    {
+      title: 'Foundations of Medical Writing',
+      months: [
+        {
+          title: 'Month 1: Fundamentals & Scientific Communication',
+          weeks: [
+            {
+              title: 'Introduction to Medical Writing',
+              topics: [
+                'Types of Medical Writing (Regulatory, Scientific, Clinical, Safety)',
+                'Basics of Drug Development Process',
+                'Understanding Clinical Trial Phases'
+              ],
+              handson: ['Write a sample scientific summary']
+            },
+            {
+              title: 'Scientific Writing Essentials',
+              topics: [
+                'Grammar, Clarity & Evidence-Based Writing',
+                'Data Interpretation & Literature Review',
+                'Referencing Styles (Vancouver, APA)'
+              ],
+              handson: ['Prepare a literature review document']
+            },
+            {
+              title: 'Regulatory Writing – Basics',
+              topics: [
+                'Overview of FDA, EMA & ICH Guidelines',
+                'Structure of Regulatory Documents',
+                'Writing Protocols & Investigator Brochures (IB)'
+              ],
+              handson: ['Draft sections of a Clinical Study Protocol']
+            },
+            {
+              title: 'Clinical Trial Documentation',
+              topics: [
+                'Clinical Study Reports (CSR)',
+                'Informed Consent Forms (ICF)',
+                'Safety Narratives & Summary Writing'
+              ],
+              handson: ['Create a mock safety narrative']
+            }
+          ]
+        },
+        {
+          title: 'Month 2: Advanced Medical & Regulatory Writing',
+          weeks: [
+            {
+              title: 'Pharmacovigilance Writing',
+              topics: [
+                'Individual Case Safety Reports (ICSR)',
+                'Periodic Safety Update Reports (PSUR)',
+                'Risk Management Plans (RMP)'
+              ],
+              handson: ['Write a sample ICSR']
+            },
+            {
+              title: 'Publication & Scientific Writing',
+              topics: [
+                'Writing Research Articles',
+                'Manuscripts, Abstracts & Posters',
+                'Peer Review Process'
+              ],
+              handson: ['Draft a journal-style abstract']
+            },
+            {
+              title: 'Medical Communications',
+              topics: [
+                'Slide Deck Creation',
+                'Medical Marketing Materials',
+                'Patient Education Content'
+              ],
+              handson: ['Prepare an educational content leaflet']
+            },
+            {
+              title: 'Career Development & Tools',
+              topics: [
+                'Tools: EndNote, Mendeley, Grammarly',
+                'Portfolio Creation',
+                'Freelancing & Industry Opportunities'
+              ],
+              handson: ['Build your medical writing portfolio']
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
+,
   {
     key: 'power-bi-for-data-visualization-c6',
     title: 'Power BI Fundamentals & Advanced Analytics',

@@ -6,7 +6,7 @@ const HeroContent = () => {
       <motion.div
         initial={{ opacity: 0, y: 20 }}
         animate={{ opacity: 1, y: 0 }}
-        className="text-2xl flex flex-col w-full sm:text-2xl md:text-3xl lg:text-4xl font-bold mb-3 sm:mb-4 tracking-wide md:!leading-[2.5rem] xl:!leading-[3rem] lg:mx-0 text-foreground text-center lg:text-left"
+        className="text-2xl flex flex-col w-full sm:text-2xl md:text-3xl lg:text-5xl font-bold mb-3 sm:mb-4 tracking-wide md:!leading-[2.5rem] xl:!leading-[3rem] lg:mx-0 text-foreground text-center lg:text-left"
       >
         <h1 className="leading-tight">
           VisionPharma : Job-Ready Programs in{' '}
@@ -14,7 +14,7 @@ const HeroContent = () => {
             Pharmacy
           </span>
         </h1>
-       <div className="text-lg sm:text-lg md:text-xl mt-2 font-medium text-black">
+       <div className="text-lg sm:text-lg md:text-2xl mt-2 font-medium text-black">
     Industry-Certified, Practical Skills. Build Your Career Faster.
   </div>
       </motion.div>
@@ -23,7 +23,7 @@ const HeroContent = () => {
         initial={{ opacity: 0, y: 20 }}
         animate={{ opacity: 1, y: 0 }}
         transition={{ delay: 0.2 }}
-        className="hidden md:block text-lg md:text-lg text-black lg:mx-0 tracking-tight font-medium"
+        className="hidden md:block text-lg md:text-xl text-black lg:mx-0 tracking-tight font-medium"
       >
         <strong>VisionPharma</strong> offers industry-certified, job-ready programs in <strong> Pharmacy and Emerging Technologies</strong>. Learn practical skills, get hands-on experience, and build your career faster with VisionPharma.
       </motion.div>

@@ -17,7 +17,7 @@ export const SectionHeader = () => (
       initial={{ opacity: 0, scale: 0.8 }}
       animate={{ opacity: 1, scale: 1 }}
       transition={{ delay: 0.2, duration: 0.6, ease: 'easeOut' }}
-      className="flex items-center gap-2 justify-center mb-4 bg-white/95 px-4 py-2 rounded-full text-primary"
+      className="flex items-center gap-2 justify-center mb-4 bg-white/95 px-4 py-2 rounded-full text-[#13AB82]"
     >
       <GraduationCap className="h-8 w-8 " />
       <p className="sm:text-lg font-semibold">Why Choose Us</p>

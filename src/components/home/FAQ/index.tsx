@@ -36,7 +36,7 @@ export default function FAQSection() {
                   'rounded-2xl w-full break-inside-avoid mb-4 transition-all duration-300',
                   isOpen ? 'bg-[#2A1B63]' : 'bg-[#2A1B63]'
                 )}
-                color={['#A07CFE', '#FE8FB5', '#FFBE7B']}
+                color={['#13AB82', '#ffffff', '#005CAF']}
               >
                 <div className="p-4 md:p-5">
                   <button

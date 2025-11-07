@@ -64,7 +64,8 @@ export function CertificateValidation() {
                       href={cert.verificationUrl || '#'}
                       target="_blank"
                       rel="noopener noreferrer"
-                      className="bg-[#74489a] text-white font-semibold text-sm xl:text-base py-2 px-4 rounded transition-all duration-300 text-center"
+                      className="bg-gradient-to-r from-[#005CAF] to-[#13AB82]
+ text-white font-semibold text-sm xl:text-base py-2 px-4 rounded transition-all duration-300 text-center"
                     >
                       Verify Certificate
                     </Link>

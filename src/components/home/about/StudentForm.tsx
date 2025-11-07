@@ -257,7 +257,8 @@ College: ${formData.college.trim()}`;
       {/* Submit Button */}
       <button
         type="submit"
-        className="w-full bg-violet-600 hover:bg-violet-700 text-white py-3 px-6 rounded-lg flex items-center justify-center gap-2 transition-all hover:shadow-lg disabled:opacity-70"
+        className="w-full bg-gradient-to-r from-[#005CAF] to-[#13AB82]
+ hover:bg-violet-700 text-white py-3 px-6 rounded-lg flex items-center justify-center gap-2 transition-all hover:shadow-lg disabled:opacity-70"
         disabled={isSubmitting}
       >
         <Send className="size-5" />

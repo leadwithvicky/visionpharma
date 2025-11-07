@@ -36,9 +36,9 @@ const About: React.FC = () => {
               transition={{ duration: 0.5 }}
               className="space-y-4"
             >
-              <div className="flex items-center gap-2 bg-white/10 px-4 py-2 rounded-full w-fit text-white">
+              <div className="flex items-center gap-2 bg-white/10 px-4 py-2 rounded-full w-fit text-">
                 <FaGraduationCap className="h-8 w-8" />
-                <span className="sm:text-lg font-semibold">
+                <span className="sm:text-lg font-semibold ">
                   Join Our Community
                 </span>
               </div>

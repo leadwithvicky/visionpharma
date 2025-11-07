@@ -127,7 +127,8 @@ const Reviews = () => {
               rel="noopener noreferrer"
               className="w-full"
             >
-              <button className="w-full py-2 px-4 rounded-xl bg-[#1C75BC] text-white font-semibold hover:bg-[#145a8a] transition text-sm">
+              <button className="w-full py-2 px-4 rounded-xl bg-gradient-to-r from-[#005CAF] to-[#13AB82]
+ text-white font-semibold hover:bg-[#145a8a] transition text-sm">
                 Insights
               </button>
             </Link>

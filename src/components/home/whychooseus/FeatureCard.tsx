@@ -24,7 +24,7 @@ export const FeatureCard: React.FC<FeatureCardProps> = ({
   >
     <ShineBorder
       className="bg-[#2A1B63] p-4 rounded-2xl w-full min-h-[190px] transition-all"
-      color={['#A07CFE', '#FE8FB5', '#FFBE7B']}
+      color={['#005CAF', '#Ffffff', '#13AB82']}
     >
       <div className="w-full flex flex-col justify-between gap-4">
         <motion.div

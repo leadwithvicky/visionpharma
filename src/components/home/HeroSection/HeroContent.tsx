@@ -46,7 +46,7 @@ const HeroContent = () => {
         {/* Primary CTA */}
         <a
           href="#popular-courses"
-          className="bg-[#13AB82] text-white px-6 py-3 rounded-lg font-semibold hover:bg-[#0F8E6D] transition-all duration-200 w-full sm:w-auto text-center shadow-md"
+          className="bg-visionGreen text-visionWhite px-6 py-3 rounded-lg font-semibold hover:bg-visionGreen/80 transition-all duration-200 w-full sm:w-auto text-center shadow-md"
         >
           Explore Courses
         </a>
@@ -54,7 +54,7 @@ const HeroContent = () => {
         {/* Secondary CTA */}
         <a
           href="/contact#contact-form"
-          className="border border-white text-white px-6 py-3 rounded-lg font-semibold hover:bg-white hover:text-[#005CAF] transition-all duration-200 w-full sm:w-auto text-center shadow-md"
+          className="border border-visionWhite text-visionWhite px-6 py-3 rounded-lg font-semibold hover:bg-visionWhite hover:text-visionBlue transition-all duration-200 w-full sm:w-auto text-center shadow-md"
         >
           Free Career Counselling
         </a>

@@ -83,7 +83,7 @@ const GlobalRanking = () => {
         {RANKINGS.map((rank, i) => (
           <motion.div
             key={i}
-            className="relative bg-[#0f0c29] rounded-xl px-4 py-6 shadow-lg border border-[#FFD700]/30 hover:scale-105 transition-all duration-300"
+            className="relative bg-visionBlue rounded-xl px-4 py-6 shadow-lg border border-[#FFD700]/30 hover:scale-105 transition-all duration-300"
             variants={{ hidden: { opacity: 0, y: 20 }, visible: { opacity: 1, y: 0 } }}
           >
             {/* Trend */}
@@ -173,7 +173,7 @@ const GlobalRanking = () => {
         {REVIEWS.map((review, i) => (
           <motion.div
             key={i}
-            className="bg-[#0f0c29] border border-[#FFD700]/20 rounded-xl px-6 py-5 shadow-xl flex items-center gap-4 hover:scale-105 transition-all duration-300"
+            className="bg-visionBlue border border-[#FFD700]/20 rounded-xl px-6 py-5 shadow-xl flex items-center gap-4 hover:scale-105 transition-all duration-300"
             variants={{ hidden: { opacity: 0, y: 20 }, visible: { opacity: 1, y: 0 } }}
           >
             <Image 

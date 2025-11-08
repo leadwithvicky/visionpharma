@@ -95,7 +95,7 @@ const CourseCard = ({ course, index = 0 }: CourseCardProps) => {
 
           <Link href={course.slug ?? 'test'}>
             <motion.button
-              className="bg-primary text-white px-4 py-3 rounded-full mt-4 w-full
+              className="bg-gradient-to-r from-visionGreen to-[#005CAF] text-white px-4 py-3 rounded-full mt-4 w-full
               flex items-center justify-center gap-1 group hover:shadow-md hover:shadow-primary/15 transition-all duration-200 ease-in-out hover:scale-[1.02]"
               whileHover={{ scale: 1.02 }}
               whileTap={{ scale: 0.98 }}

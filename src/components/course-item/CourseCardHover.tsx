@@ -58,7 +58,7 @@ export function CourseCardWithHover({ courses }: { courses: any }) {
             <AnimatePresence>
               {hoveredIndex === idx && (
                 <motion.span
-                  className="absolute inset-0 w-full bg-purple-600/20 dark:bg-slate-500/10 block  rounded-3xl"
+                  className="absolute inset-0 w-full bg-gradient-to-r from-visionBlue/20 to-visionGreen/20 block rounded-3xl"
                   layoutId="hoverBackground"
                   initial={{ opacity: 0 }}
                   animate={{

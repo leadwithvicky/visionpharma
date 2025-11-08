@@ -14,7 +14,7 @@ const EmployeeCart = ({ item }: { item: Employee }) => {
   return (
     <div className="my-10 relative">
       {/* Background Tilt Card */}  
-      <div className="w-[250px] min-h-[300px] absolute bg-[#1C75BC] -rotate-[20deg] rounded-[30px] shadow-sm"></div>
+      <div className="w-[250px] min-h-[300px] absolute bg-visionBlue -rotate-[20deg] rounded-[30px] shadow-sm"></div>
 
       {/* Foreground Card */}
       <div className="w-[250px] min-h-[300px] relative z-10 bg-white border shadow-xl rounded-[30px] flex flex-col gap-2">

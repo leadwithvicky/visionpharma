@@ -60,7 +60,7 @@ const OurPartners = () => {
                                 href={partner.link}
                                 target="_blank"
                                 rel="noopener noreferrer"
-                                className="text-[#13AB82] font-semibold hover:underline"
+                                className="text-visionGreen font-semibold hover:underline"
                             >
                                 Know More
                             </Link>

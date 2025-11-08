@@ -10,7 +10,7 @@ import { stats, whyChooseUsFeatures } from '@/utils/constants/whychooseus';
 const WhyChooseUs = () => {
   return (
     <div>
-      <div className="bg-[#1E1246] relative overflow-hidden sm:px-8 px-4 py-8 pb-12">
+      <div className="bg-visionWhite relative overflow-hidden sm:px-8 px-4 py-8 pb-12">
         <BackgroundDecorations />
 
         <div className="mx-auto max-w-screen-2xl ">

@@ -14,7 +14,7 @@ export default function Testimonials() {
       <div className="max-w-screen-2xl mx-auto flex flex-col gap-4">
         {/* Header Section */}
         <div className="text-center flex flex-col items-center mb-2 ">
-          <div className="text-sm flex items-center gap-2 bg-primary/5 px-4 py-2 rounded-full text-[#13AB82]">
+          <div className="text-sm flex items-center gap-2 bg-primary/5 px-4 py-2 rounded-full text-visionGreen">
             <TfiWrite className="h-6 w-6" />
             <span className="sm:text-lg  font-semibold">Testimonials</span>
           </div>

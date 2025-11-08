@@ -26,10 +26,10 @@ export const StatsGrid: React.FC<StatsGridProps> = ({ stats }) => (
         viewport={{ once: true }}
         className="text-center"
       >
-        <h3 className="text-white sm:text-3xl text-xl font-bold mb-2">
+        <h3 className="text-visionGreen sm:text-3xl text-xl font-bold mb-2">
           <NumberTicker value={stat.value} className="text-white" />+
         </h3>
-        <p className="text-purple-300 sm:text-base text-sm">{stat.label}</p>
+        <p className="text-visionBlue sm:text-base text-sm">{stat.label}</p>
       </motion.div>
     ))}
   </motion.div>

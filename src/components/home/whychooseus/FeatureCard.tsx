@@ -23,8 +23,8 @@ export const FeatureCard: React.FC<FeatureCardProps> = ({
     whileHover={{ scale: 1.03, transition: { duration: 0.3, ease: 'easeOut' } }}
   >
     <ShineBorder
-      className="bg-[#2A1B63] p-4 rounded-2xl w-full min-h-[190px] transition-all"
-      color={['#005CAF', '#Ffffff', '#13AB82']}
+      className="bg-gradient-to-r from-visionBlue to-visionGreen p-4 rounded-2xl w-full min-h-[190px] transition-all"
+      color={['#005CAF', '#FFFFFF', '#13AB82']}
     >
       <div className="w-full flex flex-col justify-between gap-4">
         <motion.div

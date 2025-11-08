@@ -15,7 +15,7 @@ const certificates: Certificate[] = [
 
 const Benefit = () => {
   return (
-    <div className="bg-[#7E3AF2] py-4 overflow-hidden">
+    <div className="bg-visionBlue py-4 overflow-hidden">
       <Marquee
         gradient={false}
         speed={50}

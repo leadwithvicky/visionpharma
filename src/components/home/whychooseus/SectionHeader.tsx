@@ -17,7 +17,7 @@ export const SectionHeader = () => (
       initial={{ opacity: 0, scale: 0.8 }}
       animate={{ opacity: 1, scale: 1 }}
       transition={{ delay: 0.2, duration: 0.6, ease: 'easeOut' }}
-      className="flex items-center gap-2 justify-center mb-4 bg-white/95 px-4 py-2 rounded-full text-[#13AB82]"
+      className="flex items-center gap-2 justify-center mb-4 bg-white/95 px-4 py-2 rounded-full text-visionGreen"
     >
       <GraduationCap className="h-8 w-8 " />
       <p className="sm:text-lg font-semibold">Why Choose Us</p>
@@ -28,7 +28,7 @@ export const SectionHeader = () => (
       initial={{ opacity: 0, y: 10 }}
       animate={{ opacity: 1, y: 0 }}
       transition={{ delay: 0.4, duration: 0.8, ease: 'easeOut' }}
-      className="text-white text-xl md:text-2xl lg:text-4xl font-bold mb-4 tracking-wide z-10"
+      className="text-visionBlue text-xl md:text-2xl lg:text-4xl font-bold mb-4 tracking-wide z-10"
     >
       Providing Amazing Online Programs
     </motion.h2>
@@ -38,7 +38,7 @@ export const SectionHeader = () => (
       initial={{ opacity: 0, y: 10 }}
       whileInView={{ opacity: 1, y: 0 }}
       transition={{ delay: 0.6, duration: 0.8, ease: 'easeOut' }}
-      className="text-gray-300 lg:max-w-3xl md:max-w-3xl mx-auto text-center"
+      className="text-visionGreen lg:max-w-3xl md:max-w-3xl mx-auto text-center"
     >
       We offer immersive language programs powered by the latest educational
       technologies, tailored to diverse learning needs, enhancing fluency and

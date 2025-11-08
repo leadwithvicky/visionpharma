@@ -104,16 +104,16 @@ const Header = () => {
                   className={`relative font-semibold transition-all text-lg ${
                     item.route === '/'
                       ? pathname === '/'
-                        ? isHallOfFamePage ? 'text-orange-300' : 'text-[#13AB82]'
-                        : isHallOfFamePage ? 'text-white hover:text-orange-300' : 'text-[#005CAF] hover:text-[#13AB82]'
+                        ? isHallOfFamePage ? 'text-orange-300' : 'text-visionGreen'
+                        : isHallOfFamePage ? 'text-white hover:text-orange-300' : 'text-visionBlue hover:text-visionGreen'
                       : pathname.startsWith(item.route)
-                        ? isHallOfFamePage ? 'text-orange-300' : 'text-[#13AB82]'
-                        : isHallOfFamePage ? 'text-white hover:text-orange-300' : 'text-[#005CAF] hover:text-[#13AB82]'
+                        ? isHallOfFamePage ? 'text-orange-300' : 'text-visionGreen'
+                        : isHallOfFamePage ? 'text-white hover:text-orange-300' : 'text-visionBlue hover:text-visionGreen'
                   }`}
                 >
                   {item.label}
                   <span
-                    className={`absolute -bottom-1 left-0 w-full h-0.5 text-[#13AB82] transition-transform origin-left duration-300 ${
+                    className={`absolute -bottom-1 left-0 w-full h-0.5 text-visionGreen transition-transform origin-left duration-300 ${
                       item.route === '/' 
                         ? pathname === '/'
                           ? 'scale-x-100'
@@ -164,11 +164,11 @@ const Header = () => {
                 className={`py-3 px-4 text-lg rounded-md ${
                   item.route === '/'
                     ? pathname === '/'
-                      ? isHallOfFamePage ? 'bg-orange-900/50 text-orange-300' : 'bg-orange-50 text-[#13AB82]'
-                      : isHallOfFamePage ? 'text-white hover:bg-white/10 hover:text-orange-300' : 'text-[#005CAF] hover:bg-gray-50 hover:text-[#13AB82]'
+                      ? isHallOfFamePage ? 'bg-orange-900/50 text-orange-300' : 'bg-orange-50 text-visionGreen'
+                      : isHallOfFamePage ? 'text-white hover:bg-white/10 hover:text-orange-300' : 'text-[#005CAF] hover:bg-gray-50 hover:text-visionGreen'
                     : pathname.startsWith(item.route)
-                      ? isHallOfFamePage ? 'bg-orange-900/50 text-orange-300' : 'bg-orange-50 text-[#13AB82]'
-                      : isHallOfFamePage ? 'text-white hover:bg-white/10 hover:text-orange-300' : 'text-[#005CAF] hover:bg-gray-50 hover:text-[#13AB82]'
+                      ? isHallOfFamePage ? 'bg-orange-900/50 text-orange-300' : 'bg-orange-50 text-visionGreen'
+                      : isHallOfFamePage ? 'text-white hover:bg-white/10 hover:text-orange-300' : 'text-[#005CAF] hover:bg-gray-50 hover:text-visionGreen'
                 }`}
               >
                 {item.label}
@@ -217,7 +217,7 @@ const Header = () => {
             ) : (
               <div className="pt-4 space-y-2">
                 <Link href="/login" onClick={toggleMenu}>
-                  <button className="w-full px-4 py-3 bg-gradient-to-r from-[#13AB82] via-primary to-[#005CAF] text-white rounded-lg hover:shadow-md flex items-center justify-center gap-2">
+                  <button className="w-full px-4 py-3 bg-gradient-to-r from-visionGreen via-primary to-[#005CAF] text-white rounded-lg hover:shadow-md flex items-center justify-center gap-2">
                     <LogIn size={18} />
                     Login
                   </button>

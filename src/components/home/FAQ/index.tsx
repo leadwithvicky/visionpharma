@@ -14,7 +14,7 @@ export default function FAQSection() {
   };
 
   return (
-    <section className="w-full px-4 pb-4  bg-[#1E1246] relative overflow-hidden">
+    <section className="w-full px-4 pb-4  bg-visionBlue relative overflow-hidden">
       <div className="max-w-screen-2xl mx-auto">
         <div className="text-center mb-8">
           <TextGenerateEffect

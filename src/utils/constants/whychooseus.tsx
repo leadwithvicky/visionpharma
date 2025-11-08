@@ -14,9 +14,9 @@ import {
 // import { School, Globe, Headphones } from 'lucide-react';
 
 export const stats: Stat[] = [
-  { value: 12000, label: 'Student Enrolled' },
-  { value: 3500, label: 'Classes Completed' },
-  { value: 15, label: 'Top Instructors' },
+  { value: 12000, label: 'Student Enrolled', className: 'text-visionBlue bg-visionWhite' },
+  { value: 3500, label: 'Classes Completed', className: 'text-visionGreen bg-visionWhite' },
+  { value: 15, label: 'Top Instructors', className: 'text-visionBlue bg-visionWhite' },
   // // { value: '35.3K', label: 'Positive Reviews' },<Cpu /><User /><BookOpenCheck />
   // { value: '100%', label: 'Satisfaction Rate' },
 ];

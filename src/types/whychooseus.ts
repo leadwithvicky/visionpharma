@@ -2,6 +2,7 @@
 export interface Stat {
   value: number;
   label: string;
+  className?: string;
 }
 
 export interface Feature {

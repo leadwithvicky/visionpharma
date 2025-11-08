@@ -24,12 +24,12 @@ export const StatsGrid: React.FC<StatsGridProps> = ({ stats }) => (
         whileInView={{ opacity: 1, y: 0 }}
         transition={{ delay: index * 0.2, duration: 0.6, ease: 'easeOut' }}
         viewport={{ once: true }}
-        className="text-center"
+        className={"text-center " + (stat.className || "")}
       >
-        <h3 className="text-visionGreen sm:text-3xl text-xl font-bold mb-2">
-          <NumberTicker value={stat.value} className="text-white" />+
+        <h3 className={"sm:text-3xl text-xl font-bold mb-2 " + (stat.className || "")}>
+          <NumberTicker value={stat.value} className={stat.className || ""} />+
         </h3>
-        <p className="text-visionBlue sm:text-base text-sm">{stat.label}</p>
+        <p className={"sm:text-base text-sm " + (stat.className || "")}>{stat.label}</p>
       </motion.div>
     ))}
   </motion.div>

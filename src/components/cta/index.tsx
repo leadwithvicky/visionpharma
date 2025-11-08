@@ -29,19 +29,19 @@ const CTA = ({
   };
   return (
     <ShineBorder
-      className="relative mx-auto max-w-5xl w-full bg-gradient-to-r from-orange-500 to-orange-600 rounded-2xl overflow-hidden"
-      color={['#f1c40f', '#c0392b', '#FFBE7B']}
+      className="relative mx-auto max-w-5xl w-full bg-gradient-to-r from-visionBlue to-visionGreen rounded-2xl overflow-hidden"
+      color={['#005CAF', '#13AB82', '#FFFFFF']}
     >
       <motion.div
         initial={{ opacity: 0, y: 30 }}
         whileInView={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.8, ease: 'easeOut' }}
         viewport={{ once: true }}
-        className="relative mx-auto max-w-5xl w-full bg-gradient-to-r from-orange-500 to-orange-600 rounded-2xl overflow-hidden"
+  className="relative mx-auto max-w-5xl w-full bg-gradient-to-r from-visionBlue to-visionGreen rounded-2xl overflow-hidden"
       >
         {/* Background curved shapes */}
-        <div className="absolute top-0 right-0 w-1/3 h-full bg-orange-400 rounded-l-full opacity-30 animate-pulse" />
-        <div className="absolute bottom-0 left-0 w-1/4 h-2/3 bg-orange-400 rounded-r-full opacity-20 animate-pulse" />
+  <div className="absolute top-0 right-0 w-1/3 h-full bg-visionBlue rounded-l-full opacity-30 animate-pulse" />
+  <div className="absolute bottom-0 left-0 w-1/4 h-2/3 bg-visionGreen rounded-r-full opacity-20 animate-pulse" />
 
         <div className="relative flex flex-col md:flex-row items-center justify-between gap-6 p-4">
           {/* Image Section */}
@@ -69,9 +69,9 @@ const CTA = ({
               initial={{ opacity: 0 }}
               whileInView={{ opacity: 1 }}
               transition={{ delay: 0.4, duration: 0.8, ease: 'easeOut' }}
-              className="space-y-2 font-bold text-white tracking-wide"
+              className="space-y-2 font-bold text-visionWhite tracking-wide"
             >
-              <p className="md:text-lg">Apply Now</p>
+              <p className="md:text-lg text-visionGreen">Apply Now</p>
               <h2 className="text-xl flex flex-col md:text-2xl leading-tight">
                 <span>Secure your future with expert</span> skills and
                 certifications Now!
@@ -87,7 +87,7 @@ const CTA = ({
             className="flex justify-center md:justify-end"
           >
             <div onClick={handleJoinCommunity}>
-              <button className="inline-flex items-center gap-2 bg-white text-orange-600 hover:bg-orange-50 px-6 py-3 rounded-lg font-medium transition-all duration-300 group shadow-lg hover:shadow-xl">
+              <button className="inline-flex items-center gap-2 bg-visionWhite text-visionBlue hover:bg-visionGreen hover:text-visionWhite px-6 py-3 rounded-lg font-medium transition-all duration-300 group shadow-lg hover:shadow-xl">
                 {actionButtonText}
                 <ArrowRight className="w-4 h-4 group-hover:translate-x-1 transition-transform duration-300" />
               </button>

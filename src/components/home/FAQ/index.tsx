@@ -14,7 +14,7 @@ export default function FAQSection() {
   };
 
   return (
-    <section className="w-full px-4 pb-4  bg-visionBlue relative overflow-hidden">
+    <section className="w-full px-4 pb-4 bg-visionWhite relative overflow-hidden">
       <div className="max-w-screen-2xl mx-auto">
         <div className="text-center mb-8">
           <TextGenerateEffect
@@ -33,8 +33,7 @@ export default function FAQSection() {
               <ShineBorder
                 key={index}
                 className={cn(
-                  'rounded-2xl w-full break-inside-avoid mb-4 transition-all duration-300',
-                  isOpen ? 'bg-[#2A1B63]' : 'bg-[#2A1B63]'
+                  'rounded-2xl w-full break-inside-avoid mb-4 transition-all duration-300 border border-visionBlue bg-visionWhite',
                 )}
                 color={['#13AB82', '#ffffff', '#005CAF']}
               >
@@ -45,7 +44,7 @@ export default function FAQSection() {
                     aria-expanded={isOpen}
                     aria-controls={`faq-panel-${index}`}
                   >
-                    <span className="font-semibold text-white text-base md:text-lg">
+                    <span className="font-semibold text-visionBlue text-base md:text-lg">
                       {item.question}
                     </span>
                     <span
@@ -68,7 +67,7 @@ export default function FAQSection() {
                     )}
                   >
                     <div className="overflow-hidden">
-                      <div className="pt-4 text-sm md:text-base text-gray-300">
+                      <div className="pt-4 text-sm md:text-base text-visionGreen">
                         {item.answer}
                       </div>
                     </div>

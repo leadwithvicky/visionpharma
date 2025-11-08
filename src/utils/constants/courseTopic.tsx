@@ -63,10 +63,10 @@ export const courseAPIData = [
   
   {
     id: 201,
-    title: 'Clinical Data Mining',
-    slug: 'clinical-data-mining-c3',
+    title: 'Clinical Data management',
+    slug: 'clinical-data-management-c3',
     price: 180.0,
-    image: '/images/vision/clinicaldatamining.png',
+    image: '/images/vision/clinicaldatamanagement.png',
     program: 'Degree',
     branch: 'Bachelor of Science',
     priority: 6,
@@ -152,11 +152,11 @@ export const courseAPIData = [
     subtopic: 'Site coordination, consenting, logs, SDV, audits',
   },
   // Replicate required pharma/degree variants for the nine spotlight courses across all 6 programs
-  // Clinical Data Mining
-  { id: 207, title: 'Clinical Data Mining', slug: 'clinical-data-mining-c3', price: 180.0, image: '/images/vision/clinicaldatamining.png', program: 'Pharmacy', branch: 'Master of Pharmacy', priority: 6, reviews: 12, rating: 5, description: 'Insights from clinical datasets for pharma decisions.', subtopic: 'EDA, stats, reporting' },
-  { id: 208, title: 'Clinical Data Mining', slug: 'clinical-data-mining-c3', price: 180.0, image: '/images/vision/clinicaldatamining.png', program: 'Pharmacy', branch: 'Doctor of Pharmacy', priority: 6, reviews: 12, rating: 5, description: 'Insights from clinical datasets for pharma decisions.', subtopic: 'EDA, stats, reporting' },
-  { id: 209, title: 'Clinical Data Mining', slug: 'clinical-data-mining-c3', price: 180.0, image: '/images/vision/clinicaldatamining.png', program: 'Pharmacy', branch: 'Diploma in Pharmacy', priority: 6, reviews: 12, rating: 5, description: 'Insights from clinical datasets for pharma decisions.', subtopic: 'EDA, stats, reporting' },
-  { id: 210, title: 'Clinical Data Mining', slug: 'clinical-data-mining-c3', price: 180.0, image: '/images/vision/clinicaldatamining.png', program: 'Degree', branch: 'Master of Science', priority: 6, reviews: 12, rating: 5, description: 'Insights from clinical datasets for healthcare/pharma.', subtopic: 'EDA, stats, reporting' },
+  // Clinical Data management
+  { id: 207, title: 'Clinical Data management', slug: 'clinical-data-management-c3', price: 180.0, image: '/images/vision/clinicaldatamanagement.png', program: 'Pharmacy', branch: 'Master of Pharmacy', priority: 6, reviews: 12, rating: 5, description: 'Insights from clinical datasets for pharma decisions.', subtopic: 'EDA, stats, reporting' },
+  { id: 208, title: 'Clinical Data management', slug: 'clinical-data-management-c3', price: 180.0, image: '/images/vision/clinicaldatamanagement.png', program: 'Pharmacy', branch: 'Doctor of Pharmacy', priority: 6, reviews: 12, rating: 5, description: 'Insights from clinical datasets for pharma decisions.', subtopic: 'EDA, stats, reporting' },
+  { id: 209, title: 'Clinical Data management', slug: 'clinical-data-management-c3', price: 180.0, image: '/images/vision/clinicaldatamanagement.png', program: 'Pharmacy', branch: 'Diploma in Pharmacy', priority: 6, reviews: 12, rating: 5, description: 'Insights from clinical datasets for pharma decisions.', subtopic: 'EDA, stats, reporting' },
+  { id: 210, title: 'Clinical Data management', slug: 'clinical-data-management-c3', price: 180.0, image: '/images/vision/clinicaldatamanagement.png', program: 'Degree', branch: 'Master of Science', priority: 6, reviews: 12, rating: 5, description: 'Insights from clinical datasets for healthcare/pharma.', subtopic: 'EDA, stats, reporting' },
   // Pharma Quality Assurance
   { id: 211, title: 'Pharma Quality Assurance', slug: 'pharma-quality-assurance-c2', price: 170.0, image: '/images/pharmacy/drug.webp', program: 'Pharmacy', branch: 'Master of Pharmacy', priority: 6, reviews: 10, rating: 4, description: 'QA in pharma: cGMP, validation, audits, compliance.', subtopic: 'cGMP, validation, CAPA, audits' },
   { id: 212, title: 'Pharma Quality Assurance', slug: 'pharma-quality-assurance-c2', price: 170.0, image: '/images/pharmacy/drug.webp', program: 'Pharmacy', branch: 'Doctor of Pharmacy', priority: 6, reviews: 10, rating: 4, description: 'QA in pharma: cGMP, validation, audits, compliance.', subtopic: 'cGMP, validation, CAPA, audits' },

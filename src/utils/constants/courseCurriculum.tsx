@@ -659,13 +659,13 @@ export const courseAPIData: {
     ],
   },
   {
-  key: 'clinical-data-mining-c3',
-  title: 'Clinical Data Mining & Healthcare Analytics',
+  key: 'clinical-data-management-c3',
+  title: 'Clinical Data management & Healthcare Analytics',
   description:
     'Learn how to collect, clean, analyze, and interpret clinical data using modern tools like Python, SQL, and visualization platforms.',
   modules: [
     {
-      title: 'Foundations of Data Mining in Healthcare',
+      title: 'Foundations of Data management in Healthcare',
       months: [
         {
           title: 'Month 1: Clinical Data Basics & Tools',

@@ -21,7 +21,7 @@ const VisionTechSection = () => {
         viewport={{ once: true }}
       >
         <h1 className="text-3xl mb-6">
-          <span className="font-extrabold text-transparent bg-gradient-to-r from-[#56088F] to-[#1A3364] bg-clip-text">
+          <span className="font-extrabold text-transparent bg-visionBlue bg-clip-text">
             VisionPharma
           </span>
         </h1>

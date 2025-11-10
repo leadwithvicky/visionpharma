@@ -22,21 +22,21 @@ const urbanist = Urbanist({
 });
 
 export const metadata: Metadata = {
-  title: 'VisionPharma | Job-Ready Programs in Pharmacy, Management',
-  description: 'VisionPharma offers industry-certified job-ready programs in  Pharmacy. Learn practical skills, get hands-on experience, and build your career faster with VisionTech.',
+  title: 'VisionPharma | Job-Ready Programs in Pharmacy, life sciences, and medical technology',
+  description: 'VisionPharma offers industry-certified job-ready programs in  Pharmacy. Learn practical skills, get hands-on experience, and build your career faster with VisionPharma.',
   icons: '/logo-small.webp',
-  metadataBase: new URL('https://visiontech.world'),
+  metadataBase: new URL('https://visionpharma.world'),
   openGraph: {
-    title: 'VisionTech | Job-Ready Programs in Engineering, Agriculture, Pharmacy, Management & Tech',
-    description: 'VisionTech offers industry-certified job-ready programs in Engineering, Pharmacy, Agriculture, Management, and Emerging Technologies. Learn practical skills, get hands-on experience, and build your career faster with VisionTech.',
-    url: 'https://visiontech.world/',
-    siteName: 'VisionTech',
+    title: 'VisionPharma | Job-Ready Programs in Pharmacy, life sciences, and medical technology',
+    description: 'VisionPharma offers industry-certified job-ready programs in Engineering, Pharmacy, Agriculture, Management, and Emerging Technologies. Learn practical skills, get hands-on experience, and build your career faster with VisionPharma.',
+    url: 'https://visionpharma.world/',
+    siteName: 'Visionpharma',
     images: [
       {
         url: '/images/og-image.webp',
         width: 1200,
         height: 630,
-        alt: 'VisionTech Online Education Platform',
+        alt: 'Visionpharma Online Education Platform',
       },
     ],
     locale: 'en_US',
@@ -44,12 +44,12 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'VisionTech – Learn B.Tech, MBA, MCA & Pharmacy Courses Online',
-    description: 'Join VisionTech to learn B.Tech, MBA, MCA, and Pharmacy online. Gain real-world skills, mentorship, and 100% certification guarantee to build your dream career.',
+    title: 'VisionPharma – Learn B.Tech, MBA, MCA & Pharmacy Courses Online',
+    description: 'Join VisionPharma to learn B.Tech, MBA, MCA, and Pharmacy online. Gain real-world skills, mentorship, and 100% certification guarantee to build your dream career.',
     images: ['/images/og-image.webp'],
   },
   alternates: {
-    canonical: 'https://visiontech.world/',
+    canonical: 'https://visionpharma.world/',
   },
 };
 

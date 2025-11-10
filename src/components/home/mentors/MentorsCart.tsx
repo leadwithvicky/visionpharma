@@ -10,7 +10,7 @@ export interface IMentors {
 
 }
 
-const cartBackground = 'https://res.cloudinary.com/denikmblr/image/upload/v1757396537/1_vcnbqv.png'
+const cartBackground = 'https://res.cloudinary.com/denikmblr/image/upload/v1762778366/1_1_y4qowb.png'
 
 const MentorsCart = ({ mentor }: { mentor: IMentors }) => {
   return (

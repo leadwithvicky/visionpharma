@@ -21,7 +21,7 @@ export default function FAQSection() {
             words={"Frequently Asked Questions"}
             className="text-xl md:text-2xl lg:text-4xl font-bold text-white tracking-wide"
           />
-          <p className="mt-2 text-sm md:text-base text-gray-300">
+          <p className="mt-2 text-sm md:text-base text-black/70">
             Answers to the most common questions about VisionPharma programs.
           </p>
         </div>
@@ -51,8 +51,8 @@ export default function FAQSection() {
                       className={cn(
                         'shrink-0 inline-flex h-8 w-8 items-center justify-center rounded-full border transition-all',
                         isOpen
-                          ? 'bg-purple-600 text-white border-purple-600 rotate-45'
-                          : 'bg-purple-600/20 text-purple-400 border-purple-600/40'
+                          ? 'bg-visionBlue text-white border-purple-600 rotate-45'
+                          : 'bg-visionBlue text-visionGreen border-visionGreen'
                       )}
                       aria-hidden="true"
                     >

@@ -10,7 +10,7 @@ import Marquee from 'react-fast-marquee';
 // Main Testimonials Component
 export default function Testimonials() {
   return (
-    <section className="w-full px-4 pt-8 pb-40 bg-gradient-to-r from-pink-50 to-purple-50">
+    <section className="w-full px-4 pt-8 pb-40 bg-gradient-to-r from-visionGreen/70 to-visionBlue/70 ">
       <div className="max-w-screen-2xl mx-auto flex flex-col gap-4">
         {/* Header Section */}
         <div className="text-center flex flex-col items-center mb-2 ">

@@ -193,7 +193,7 @@ export default function Footer() {
   ];
 
   return (
-    <footer className="bg-gradient-to-b from-purple-900 to-purple-800 text-white">
+    <footer className="bg-gradient-to-b from-visionBlue to-visionBlue/70 text-white">
       <div className="max-w-screen-2xl mx-auto px-4 py-8">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-8">
           {/* Logo and Description */}
@@ -285,7 +285,7 @@ export default function Footer() {
       {showScroll && (
         <button
           onClick={scrollTop}
-          className="fixed bottom-4 right-4 md:bottom-8 md:right-8 bg-purple-500 hover:bg-purple-600 text-white rounded-full p-3 md:p-4 shadow-lg transition-transform hover:scale-110 focus:outline-none focus:ring-2 focus:ring-purple-400 focus:ring-offset-2 z-[9999]"
+          className="fixed bottom-4 right-4 md:bottom-8 md:right-8 bg-visionBlue hover:bg-visionBlue/90 text-white rounded-full p-3 md:p-4 shadow-lg transition-transform hover:scale-110 focus:outline-none focus:ring-2 focus:ring-visionBlue focus:ring-offset-2 z-[9999]"
           aria-label="Scroll to top"
         >
           <ArrowUp size={20} />

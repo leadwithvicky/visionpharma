@@ -20,9 +20,9 @@ const TopCategories = () => {
         transition={{ duration: 0.6 }}
         className="text-center flex flex-col justify-center items-center"
       >
-        <div className="flex items-center gap-1 mb-4 px-4 py-1 bg-primary/5 rounded-full">
-          <FaGraduationCap className="h-8 w-8 text-primary" />
-          <span className="sm:text-lg text-primary font-semibold">
+        <div className="flex items-center gap-1 mb-4 px-4 py-1 bg-visionGreen/10 rounded-full">
+          <FaGraduationCap className="h-8 w-8 text-visionBlue" />
+          <span className="sm:text-lg text-vision font-semibold">
             Top Categories
           </span>
         </div>
@@ -49,7 +49,14 @@ const TopCategories = () => {
               >
                 <Link
                   href={`/program?programName=${data.name}`}
-                  className={`flex justify-between gap-2 p-12 w-full rounded-2xl shadow-md hover:scale-[1.01] active:scale-[0.99] cursor-pointer ease-in-out duration-300 ${bgColors[index]} bg-opacity-25 relative group`}
+                  className={`
+  flex justify-between gap-2 p-12 w-full rounded-2xl shadow-md 
+  hover:scale-[1.01] active:scale-[0.99] cursor-pointer ease-in-out duration-300
+  ${bgColors[index]} bg-opacity-15
+  hover:bg-opacity-90 active:bg-opacity-100
+  relative group
+`}
+
                 >
                   <div>
                     <div className="font-semibold text-lg md:text-xl max-w-[100px]">

@@ -4,7 +4,7 @@ import TrustedByCompact from './TrustedByCertificate';
 
 const TrustedBy = () => {
   return (
-    <section className="bg-gradient-to-b  from-blue-100 via-pink-200 to-transparent sm:px-8 px-4 pt-8">
+    <section className="bg-gradient-to-b  from-blue-100 via-green-200 to-transparent sm:px-8 px-4 pt-8">
       <div className="text-center flex flex-col justify-center items-center gap-8">
         {/* <div className="text-sm w-fit mx-auto flex items-center mb-4 gap-1 bg-primary/5 px-4 py-2 rounded-full">
           <TbCertificate className="text-2xl text-primary" />

@@ -18,7 +18,7 @@ export const SectionHeader = () => {
         whileInView={{ opacity: 1, scale: 1 }}
         viewport={{ once: true }}
         transition={{ duration: 0.5, delay: 0.2 }}
-        className="text-sm flex items-center gap-1 mb-4 bg-primary/5 px-4 py-2 rounded-full text-primary"
+        className="text-sm flex items-center gap-1 mb-4 bg-visionBlue/5 px-4 py-2 rounded-full text-visionBlue"
       >
         <FaGraduationCap className="h-8 w-8" />
         <span className="sm:text-lg font-semibold">Popular Programs</span>

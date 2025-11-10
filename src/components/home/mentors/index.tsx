@@ -44,8 +44,8 @@ const MentorSlider = () => {
         className="text-center flex flex-col justify-center items-center mb-12"
       >
         <div className="flex items-center gap-1 mb-4 px-4 py-2 bg-primary/5 rounded-full">
-          <FaUserGraduate className="h-8 w-8 text-primary" />
-          <span className="sm:text-lg text-primary font-semibold">
+          <FaUserGraduate className="h-8 w-8 text-visionBlue" />
+          <span className="sm:text-lg text-visionBlue font-semibold">
             Expert Mentors
           </span>
         </div>

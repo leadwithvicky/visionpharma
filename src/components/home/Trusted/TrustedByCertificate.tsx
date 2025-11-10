@@ -21,8 +21,8 @@ const TrustedByCompact = () => {
       transition={{ duration: 0.6, ease: 'easeOut' }}
     >
       <ShineBorder
-        className="relative mb-6 flex flex-col items-center justify-center overflow-hidden rounded-xl max-w-3xl mx-auto bg-gradient-to-bl from-[#1E1246] to-[#1E1246]/90 text-white md:p-8 animate-shine"
-        color={['#f1c40f', '#c0392b', '#FFBE7B']}
+        className="relative mb-6 flex flex-col items-center justify-center overflow-hidden rounded-xl max-w-3xl mx-auto bg-visionBlue text-white md:p-8 animate-shine"
+        color={['#ffffff', '#c0392b', '#FFBE7B']}
       >
         <div className="w-full h-full flex flex-col md:gap-8 gap-4 items-center   ">
           <div className="relative group">
@@ -31,7 +31,7 @@ const TrustedByCompact = () => {
             </div>
           </div>
           <h2 className="md:text-3xl text-lg font-semibold text-white/90 tracking-wide">
-            Trusted by over 12,000+ Students WorldWide
+            Trusted by over 12,000+ Students WorldWide 
           </h2>
 
           <div className="grid grid-cols-3 gap-2 md:gap-4">

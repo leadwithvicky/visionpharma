@@ -10,7 +10,7 @@ export const BackgroundDecorations = () => (
       initial={{ opacity: 0, scale: 0.8 }}
       animate={{ opacity: 1, scale: 1, y: [0, -10, 0] }}
       transition={{ duration: 3, repeat: Infinity, ease: 'easeInOut' }}
-      className="absolute top-0 left-0 w-48 h-48 rounded-full bg-purple-800/50 -translate-x-1/4 -translate-y-1/4"
+      className="absolute top-0 left-0 w-48 h-48 rounded-full bg-visionBlue -translate-x-1/4 -translate-y-1/4"
     />
 
     {/* Floating Bottom-Right Circle */}

@@ -82,10 +82,10 @@ const Header = () => {
         <div className="flex items-center justify-between h-16 md:h-20">
           {/* Logo */}
           <Link href="/" className={`flex items-center pl-2 md:pl-4  pr-5 rounded-xl ${isHallOfFamePage ? 'bg-gradient-to-r from-[#FFD87C] to-[#A47A1E]' : 'bg-white'}`}>
-            <div className="relative w-[280px] aspect-[4/2] hover:scale-105 transition-all duration-300">
+            <div className="relative w-[180px] aspect-[4/2] hover:scale-105 transition-all duration-300">
               <Image
-                src="logo.png"
-                alt="VisionTech Logo"
+                src="download.png"
+                alt="Visionpharma Logo"
                 fill
                 unoptimized
                 className="object-contain"

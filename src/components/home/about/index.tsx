@@ -10,7 +10,7 @@ import { motion } from 'framer-motion';
 const About: React.FC = () => {
   return (
     <div
-      className="bg-gradient-to-br from-primary/90 via-primary/60 to-primary/80 py-8"
+      className="bg-gradient-to-br from-visionBlue/90 via-visionBlue/60 to-visionBlue/80 py-8"
       id="join-community"
     >
       <div className="max-w-screen-2xl mx-auto px-4">

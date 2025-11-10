@@ -26,7 +26,7 @@ const navigationItems = [
   { label: 'Home', route: '/' },
   { label: 'About Us', route: '/about' },
   { label: 'Services', route: '/services' },
-  { label: 'Careers', route: '/careers' },
+  // { label: 'Careers', route: '/careers' },
   { label: 'Contact Us', route: '/contact' },
   // { label: 'Hall of Fame', route: '/hall-of-fame' },
 ];
@@ -79,9 +79,9 @@ const Header = () => {
   return (
     <header className={`w-full shadow-md ${isHallOfFamePage ? 'bg-gradient-to-br from-[#0f0c29] via-[#302b63] to-[#24243e]' : 'bg-white'}`}>
       <div className="w-full px-2 md:px-4">
-        <div className="flex items-center justify-between h-16 md:h-20">
+        <div className="flex items-center justify-between h-14 md:h-20">
           {/* Logo */}
-          <Link href="/" className={`flex items-center pl-2 md:pl-4  pr-5 rounded-xl ${isHallOfFamePage ? 'bg-gradient-to-r from-[#FFD87C] to-[#A47A1E]' : 'bg-white'}`}>
+          <Link href="/" className={`flex items-center pl-2 md:pl-4  pr-5 rounded-xl ${isHallOfFamePage ? 'bg-gradient-to-r from-[#FFD87C] to-[#A47A1E]' : ''}`}>
             <div className="relative w-[180px] aspect-[4/2] hover:scale-105 transition-all duration-300">
               <Image
                 src="download.png"

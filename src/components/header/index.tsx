@@ -127,7 +127,7 @@ const Header = () => {
               ))}
             </nav>
 
-            {userData ? (
+            {/* {userData ? (
               <ProfileDropdown
                 userName={userData?.fullName}
                 userEmail={userData?.email}
@@ -138,7 +138,7 @@ const Header = () => {
               />
             ) : (
               <AuthButtons />
-            )}
+            )} */}
           </div>
 
           {/* Mobile Menu Button */}
@@ -176,7 +176,7 @@ const Header = () => {
             ))}
 
             <hr className={`my-2 ${isHallOfFamePage ? 'border-white/20' : 'border-gray-200'}`} />
-
+{/* 
             {userData ? (
               <>
                 <Link
@@ -229,7 +229,7 @@ const Header = () => {
                   </button>
                 </Link>
               </div>
-            )}
+            )} */}
 
           </nav>
         </div>
